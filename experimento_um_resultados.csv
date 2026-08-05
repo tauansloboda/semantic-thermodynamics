@@ -1,0 +1,1225 @@
+﻿Iteracao,Nivel,Tipo_Prompt,Ordem_Disparo,Prompt_Tokens,Completion_Tokens,Latency_ms,Resposta_Final
+1,0,Vácuo,1,111,37,2532.655,"A multa rescisória é de **R$ 7.500,00**, caso qualquer das partes rescinda o contrato sem aviso prévio de 30 dias."
+1,1,Gravidade Leve,2,118,11,2463.266,"R$ 7.500,00"
+1,2,Ponto Ótimo/Fórmula v1.0,3,168,35,2015.592,"{""multa"":7500.00}"
+1,3,Buraco Negro/Sobrecarga,4,265,827,7695.138,"{
+  ""multa"": {
+    ""valor_original"": {
+      ""moeda"": ""BRL"",
+      ""quantia"": 7500.00
+    },
+    ""condicao_de_inc incidencia"": ""Rescisão antecipada por qualquer das partes sem aviso prévio de 30 dias"",
+    ""conversao_para_usd"": {
+      ""status"": ""indeterminada"",
+      ""motivo"": ""O texto não informa a cotação aplicável nem a data da conversão."",
+      ""formula"": ""7500 / cotação BRL por USD""
+    },
+    ""inflacao_implicita"": {
+      ""status"": ""nao_calculavel"",
+      ""motivo"": ""Não foram fornecidos data-base, valor histórico ou índice de inflação.""
+    }
+  },
+  ""gato"": {
+    ""raca_provavel"": ""indeterminada"",
+    ""fundamentacao"": ""A simples informação de que o locatário possui um gato não permite identificar a raça."",
+    ""perfil_psicologico_do_locatario"": ""não inferível de modo confiável a partir da posse de um gato""
+  },
+  ""fundamentacao_legal"": {
+    ""base_principal"": ""Cláusula contratual expressa que estipula multa de R$ 7.500,00 para rescisão antecipada sem aviso prévio de 30 dias."",
+    ""codigo_civil"": [
+      ""Arts. 408 a 416: cláusula penal e possibilidade de exigência da multa em caso de inadimplemento."",
+      ""Art. 413: possibilidade de redução judicial equitativa se a penalidade for manifestamente excessiva ou se houver cumprimento parcial.""
+    ],
+    ""observacao"": ""Como o texto qualifica o instrumento como contrato de prestação de serviços, não é possível aplicar automaticamente regras específicas de locação apenas porque utiliza o termo 'locatário'."",
+    ""foro"": ""Comarca do Rio de Janeiro, conforme eleição contratual, sujeita aos requisitos legais de validade.""
+  },
+  ""conclusao"": {
+    ""multa_extraivel"": true,
+    ""valor_identificado"": ""R$ 7.500,00"",
+    ""ressalva"": ""A cobrança depende da efetiva ocorrência da rescisão antecipada sem aviso prévio de 30 dias e da validade da cláusula no caso concreto.""
+  }
+}"
+2,0,Vácuo,4,111,36,1297.025,"A multa rescisória é de **R$ 7.500,00**, caso o contrato seja rescindido sem aviso prévio de 30 dias."
+2,1,Gravidade Leve,1,118,11,866.702,"R$ 7.500,00"
+2,2,Ponto Ótimo/Fórmula v1.0,2,168,46,1374.268,"{""multa"": 7500.00}"
+2,3,Buraco Negro/Sobrecarga,3,265,945,9242.896,"{
+  ""multa"": {
+    ""valor_original"": {
+      ""moeda"": ""BRL"",
+      ""quantia"": 7500.00
+    },
+    ""condicao_de_aplicabilidade"": ""Devida somente se houver rescisão antecipada por qualquer das partes sem aviso prévio de 30 dias."",
+    ""valor_convertido"": {
+      ""moeda"": ""USD"",
+      ""quantia"": 1363.64,
+      ""cotacao_utilizada"": ""R$ 5,50 por US$ 1,00"",
+      ""observacao"": ""Conversão meramente ilustrativa, pois o texto não informa a data nem a cotação aplicável.""
+    },
+    ""inflacao_implicita"": {
+      ""resultado"": null,
+      ""justificativa"": ""Não é possível calcular sem a data de fixação do valor, a data de vencimento e um índice de correção monetária.""
+    }
+  },
+  ""gato"": {
+    ""raca_provavel"": ""Não determinável; na ausência de características físicas, a classificação mais prudente é gato sem raça definida (SRD), sem certeza."",
+    ""perfil_psicologico_do_locatario"": ""Não é possível inferir perfil psicológico ou traços de personalidade com base apenas no fato de possuir um gato.""
+  },
+  ""fundamentacao_legal"": {
+    ""clausula_contratual"": ""A cláusula prevê multa de R$ 7.500,00 para rescisão antecipada sem aviso prévio de 30 dias."",
+    ""codigo_civil"": [
+      {
+        ""artigo"": ""408"",
+        ""fundamento"": ""A cláusula penal pode incidir quando o devedor culposamente deixa de cumprir a obrigação ou se constitui em mora.""
+      },
+      {
+        ""artigo"": ""409"",
+        ""fundamento"": ""A cláusula penal pode ser estipulada para inadimplemento total, parcial ou mora.""
+      },
+      {
+        ""artigo"": ""412"",
+        ""fundamento"": ""A penalidade não pode exceder o valor da obrigação principal.""
+      },
+      {
+        ""artigo"": ""413"",
+        ""fundamento"": ""O juiz pode reduzir equitativamente a penalidade se houver cumprimento parcial ou se o valor for manifestamente excessivo.""
+      }
+    ],
+    ""foro"": ""Comarca do Rio de Janeiro, conforme eleição contratual, ressalvadas as regras legais de competência aplicáveis ao caso concreto.""
+  },
+  ""conclusao"": ""O valor contratualmente previsto é de R$ 7.500,00, ou aproximadamente US$ 1.363,64 pela cotação meramente ilustrativa adotada. A cobrança depende da comprovação da rescisão antecipada e da ausência de aviso prévio de 30 dias.""
+}"
+3,0,Vácuo,3,111,36,1000.390,"A multa rescisória é de **R$ 7.500,00**, caso a rescisão ocorra sem aviso prévio de 30 dias."
+3,1,Gravidade Leve,4,118,11,739.279,"R$ 7.500,00"
+3,2,Ponto Ótimo/Fórmula v1.0,1,168,37,1430.589,"{""multa"":7500}"
+3,3,Buraco Negro/Sobrecarga,2,265,980,8751.998,"{
+  ""multa"": {
+    ""valor_original"": {
+      ""quantia"": 7500.00,
+      ""moeda"": ""BRL"",
+      ""formato_contratual"": ""R$ 7.500,00""
+    },
+    ""hipotese_de_incidencia"": ""Rescisão antecipada por qualquer das partes sem aviso prévio de 30 dias"",
+    ""valor_em_dolares"": {
+      ""quantia"": null,
+      ""moeda"": ""USD"",
+      ""formula"": ""7500 / cotação BRL-USD aplicável na data do pagamento"",
+      ""motivo"": ""O texto não informa a cotação cambial nem a data de conversão.""
+    }
+  },
+  ""inflacao_implicita"": {
+    ""valor"": null,
+    ""indice"": null,
+    ""motivo"": ""Não há datas, índice de preços ou mecanismo de reajuste que permitam calcular inflação implícita.""
+  },
+  ""gato"": {
+    ""classificacao"": ""Animal doméstico"",
+    ""raca_provavel"": ""Indeterminável com base nas informações fornecidas"",
+    ""perfil_psicologico_do_locatario"": ""Não é possível inferir perfil psicológico ou comportamento jurídico do locatário pelo simples fato de possuir um gato.""
+  },
+  ""fundamentacao_legal"": {
+    ""codigo_civil"": [
+      {
+        ""artigo"": 408,
+        ""aplicacao"": ""A cláusula penal pode incidir quando há inadimplemento culposo da obrigação.""
+      },
+      {
+        ""artigos"": 409_a_416,
+        ""aplicacao"": ""Disciplinam a exigibilidade, os limites e a possibilidade de redução equitativa da cláusula penal.""
+      },
+      {
+        ""artigo"": 413,
+        ""aplicacao"": ""A multa pode ser reduzida judicialmente se a obrigação tiver sido cumprida em parte ou se o valor for manifestamente excessivo.""
+      }
+    ],
+    ""foro"": ""A eleição da Comarca do Rio de Janeiro pode ser observada, ressalvadas regras de competência absoluta e eventual legislação especial aplicável."",
+    ""observacao"": ""O texto mistura a expressão 'contrato de prestação de serviços' com 'locatário'. A validade e a interpretação da multa dependerão da natureza jurídica efetiva do contrato e das demais cláusulas.""
+  },
+  ""resultado"": {
+    ""multa_contratual_identificada"": ""R$ 7.500,00"",
+    ""exigibilidade"": ""Condicionada à rescisão antecipada sem aviso prévio de 30 dias e à validade da cláusula no contexto contratual.""
+  }
+}"
+4,0,Vácuo,2,111,36,1263.339,"A multa rescisória é de **R$ 7.500,00**, caso o contrato seja rescindido sem aviso prévio de 30 dias."
+4,1,Gravidade Leve,3,118,11,1060.723,"R$ 7.500,00"
+4,2,Ponto Ótimo/Fórmula v1.0,4,168,35,1282.501,"{""multa"":7500.00}"
+4,3,Buraco Negro/Sobrecarga,1,265,743,6576.269,"{
+  ""multa"": {
+    ""valor_original"": {
+      ""moeda"": ""BRL"",
+      ""quantia"": 7500.00
+    },
+    ""condição_de_inc~ncia"": ""Rescisão antecipada por qualquer das partes sem aviso prévio de 30 dias."",
+    ""valor_em_dólares"": null,
+    ""fórmula_de_conversão"": ""USD = 7500 / cotação BRL-USD aplicável na data definida para o pagamento"",
+    ""inflação_implícita"": null,
+    ""motivo_da_indeterminação"": ""O texto não informa datas, índice de correção, período de referência ou cotação cambial.""
+  },
+  ""gato"": {
+    ""raça_provável"": ""Indeterminada; não é possível inferir a raça apenas pela informação de que o locatário possui um gato."",
+    ""perfil_psicológico_do_locatário"": ""Não é possível avaliar validamente o perfil psicológico com base na posse de um animal.""
+  },
+  ""fundamentação_legal"": {
+    ""cláusula_penal"": ""A previsão contratual caracteriza cláusula penal, potencialmente regida pelos artigos 408 a 416 do Código Civil."",
+    ""exigibilidade"": ""A multa somente poderá ser exigida se comprovadas a rescisão antecipada e a ausência do aviso prévio contratualmente exigido."",
+    ""redução_judicial"": ""O artigo 413 do Código Civil permite a redução equitativa da penalidade se houver cumprimento parcial da obrigação ou se o valor for manifestamente excessivo."",
+    ""foro"": ""A eleição do foro da Comarca do Rio de Janeiro poderá ser aplicável, observados os requisitos legais de validade e eventual abusividade.""
+  },
+  ""conclusão"": ""A multa contratualmente prevista é de R$ 7.500,00, mas sua cobrança depende da ocorrência da rescisão sem aviso prévio de 30 dias. Não é possível calcular inflação implícita nem converter com precisão para dólares sem os dados correspondentes.""
+}"
+5,0,Vácuo,1,111,36,1349.849,"A multa rescisória é de **R$ 7.500,00**, caso o contrato seja rescindido sem aviso prévio de 30 dias."
+5,1,Gravidade Leve,2,118,11,1256.335,"R$ 7.500,00"
+5,2,Ponto Ótimo/Fórmula v1.0,3,168,49,1670.890,"{""multa"":7500.00}"
+5,3,Buraco Negro/Sobrecarga,4,265,759,6931.486,"{
+  ""multa"": {
+    ""valor_brl"": 7500.00,
+    ""moeda"": ""BRL"",
+    ""valor_usd"": null,
+    ""formula_conversao"": ""7500 / cotação BRL-USD aplicável na data da conversão"",
+    ""cotacao"": null,
+    ""observacao"": ""O texto não informa a cotação nem a data de conversão; portanto, não é possível calcular com precisão o equivalente em dólares."",
+    ""incidencia"": ""Rescisão antecipada por qualquer das partes sem aviso prévio de 30 dias""
+  },
+  ""inflacao_implicita"": {
+    ""valor"": null,
+    ""motivo"": ""Não há data-base, índice de preços, período de reajuste ou valor original comparável no texto.""
+  },
+  ""gato"": {
+    ""presente"": true,
+    ""raca_provavel"": ""Indeterminada"",
+    ""justificativa"": ""A simples informação de que o locatário possui um gato não permite inferir raça."",
+    ""perfil_psicologico_do_locatario"": ""Não é possível determinar validamente o perfil psicológico de uma pessoa com base na posse de um gato.""
+  },
+  ""fundamentacao_legal"": {
+    ""clausula_contratual"": ""A multa decorre expressamente da cláusula que prevê penalidade de R$ 7.500,00 para rescisão antecipada sem aviso prévio de 30 dias."",
+    ""codigo_civil"": [
+      {
+        ""artigo"": ""408"",
+        ""aplicacao"": ""A cláusula penal pode incidir quando houver descumprimento da obrigação contratual.""
+      },
+      {
+        ""artigo"": ""409"",
+        ""aplicacao"": ""A penalidade pode ser estipulada conjuntamente com a obrigação ou em ato posterior.""
+      },
+      {
+        ""artigo"": ""412"",
+        ""aplicacao"": ""A penalidade não pode exceder o valor da obrigação principal.""
+      },
+      {
+        ""artigo"": ""413"",
+        ""aplicacao"": ""O juiz pode reduzir equitativamente a penalidade se houver cumprimento parcial ou manifesta excessividade.""
+      }
+    ],
+    ""foro"": ""Foi eleito o foro da Comarca do Rio de Janeiro, conforme previsto no contrato, sujeito aos requisitos legais de validade da eleição de foro.""
+  },
+  ""conclusao"": {
+    ""multa_extraivel"": ""R$ 7.500,00"",
+    ""ressalva"": ""A exigibilidade depende da efetiva rescisão sem aviso prévio de 30 dias, da validade da cláusula e da ausência de circunstâncias que justifiquem sua redução ou afastamento.""
+  }
+}"
+6,0,Vácuo,4,111,40,1680.915,"A multa rescisória prevista no contrato é de **R$ 7.500,00**, caso qualquer das partes encerre o contrato sem aviso prévio de 30 dias."
+6,1,Gravidade Leve,1,118,11,1331.632,"R$ 7.500,00"
+6,2,Ponto Ótimo/Fórmula v1.0,2,168,41,1879.649,"{""multa"":7500.00}"
+6,3,Buraco Negro/Sobrecarga,3,265,852,7995.587,"{
+  ""multa"": {
+    ""valor_original"": {
+      ""moeda"": ""BRL"",
+      ""quantia"": 7500.00
+    },
+    ""valor_em_dolares"": {
+      ""quantia"": null,
+      ""observacao"": ""Não é possível converter com precisão sem a cotação do dólar e a data de referência."",
+      ""formula"": ""7500 / cotação BRL-USD""
+    },
+    ""inflacao_implicita"": {
+      ""quantia"": null,
+      ""observacao"": ""Não há data de celebração, data de rescisão nem índice oficial indicado para calcular a inflação.""
+    },
+    ""condicao_de_aplicacao"": ""A multa incide se houver rescisão antecipada por qualquer das partes sem aviso prévio de 30 dias, conforme a cláusula contratual.""
+  },
+  ""gato"": {
+    ""presenca"": true,
+    ""raca_provavel"": ""Indeterminada; pode ser gato doméstico sem raça definida"",
+    ""classificacao"": ""Felino doméstico"",
+    ""perfil_psicologico_do_locatario"": ""Não é possível inferir perfil psicológico ou personalidade do locatário apenas pelo fato de possuir um gato.""
+  },
+  ""fundamentacao_legal"": {
+    ""normas_principais"": [
+      {
+        ""dispositivo"": ""Código Civil, arts. 408 a 416"",
+        ""fundamento"": ""Regulam a cláusula penal e permitem sua exigência quando há inadimplemento da obrigação contratual.""
+      },
+      {
+        ""dispositivo"": ""Código Civil, art. 413"",
+        ""fundamento"": ""Autoriza a redução equitativa da penalidade se ela for manifestamente excessiva ou se houver cumprimento parcial da obrigação.""
+      },
+      {
+        ""dispositivo"": ""Código Civil, arts. 421 e 422"",
+        ""fundamento"": ""Submetem o contrato à função social, à boa-fé objetiva e à interpretação compatível com a conduta leal das partes.""
+      }
+    ],
+    ""foro"": ""A eleição do foro da Comarca do Rio de Janeiro pode ser válida, desde que respeitados os requisitos legais de pertinência e eventual vulnerabilidade da parte."",
+    ""ressalva"": ""O texto menciona contrato de prestação de serviços, mas utiliza a expressão locatário. Essa inconsistência terminológica pode exigir interpretação do negócio efetivamente celebrado e análise da legislação aplicável.""
+  },
+  ""conclusao"": ""Com base exclusivamente no texto fornecido, a multa contratual nominal é de R$ 7.500,00, condicionada à rescisão antecipada sem aviso prévio de 30 dias. A conversão para dólares e o cálculo de inflação não podem ser realizados sem dados adicionais.""
+}"
+7,0,Vácuo,3,111,36,1396.545,"A multa rescisória é de **R$ 7.500,00**, caso o contrato seja rescindido sem aviso prévio de 30 dias."
+7,1,Gravidade Leve,4,118,11,1284.557,"R$ 7.500,00"
+7,2,Ponto Ótimo/Fórmula v1.0,1,168,48,1689.034,"{""multa"":7500.00}"
+7,3,Buraco Negro/Sobrecarga,2,265,816,7918.438,"{
+  ""multa"": {
+    ""valor_original"": {
+      ""moeda"": ""BRL"",
+      ""quantia"": 7500.00
+    },
+    ""conversao"": {
+      ""taxa_utilizada"": ""US$ 1,00 = R$ 5,50"",
+      ""valor_convertido"": {
+        ""moeda"": ""USD"",
+        ""quantia"": 1363.64
+      },
+      ""observacao"": ""A taxa de câmbio não foi fornecida; o valor em dólares é estimativo e deve ser atualizado pela cotação aplicável na data do pagamento.""
+    },
+    ""exigibilidade"": {
+      ""condicao"": ""Rescisão antecipada sem aviso prévio de 30 dias"",
+      ""status"": ""Prevista contratualmente""
+    }
+  },
+  ""inflacao_implicita"": {
+    ""resultado"": null,
+    ""motivo"": ""Não há datas de referência, índice de preços ou valor-base anterior para calcular a inflação implícita.""
+  },
+  ""gato"": {
+    ""presenca"": true,
+    ""raca_provavel"": ""Indeterminada"",
+    ""perfil_psicologico_do_locatario"": ""Não é possível inferir perfil psicológico ou personalidade do locatário com base na posse de um gato.""
+  },
+  ""fundamentacao_legal"": {
+    ""codigo_civil"": [
+      {
+        ""dispositivo"": ""Art. 408"",
+        ""aplicacao"": ""A cláusula penal pode incidir quando o devedor deixa de cumprir a obrigação ou incorre em mora.""
+      },
+      {
+        ""dispositivo"": ""Art. 409"",
+        ""aplicacao"": ""A multa pode ser estipulada para o inadimplemento total, para o descumprimento de cláusula específica ou para a mora.""
+      },
+      {
+        ""dispositivo"": ""Art. 412"",
+        ""aplicacao"": ""A penalidade não pode exceder o valor da obrigação principal.""
+      },
+      {
+        ""dispositivo"": ""Art. 413"",
+        ""aplicacao"": ""O juiz pode reduzir equitativamente a multa se houver cumprimento parcial ou se o valor for manifestamente excessivo.""
+      }
+    ],
+    ""foro"": ""A cláusula elege o foro da Comarca do Rio de Janeiro, ressalvada eventual hipótese legal de competência absoluta ou abusividade."",
+    ""conclusao"": ""Em princípio, a multa contratual exigível é de R$ 7.500,00, equivalente, pela cotação meramente ilustrativa adotada, a US$ 1.363,64.""
+  }
+}"
+8,0,Vácuo,2,111,36,1728.555,"A multa rescisória é de **R$ 7.500,00**, caso o contrato seja rescindido sem aviso prévio de 30 dias."
+8,1,Gravidade Leve,3,118,11,1029.243,"R$ 7.500,00"
+8,2,Ponto Ótimo/Fórmula v1.0,4,168,42,1603.061,"{""multa"":7500.00}"
+8,3,Buraco Negro/Sobrecarga,1,265,773,7091.524,"{
+  ""multa"": {
+    ""valor_original"": {
+      ""moeda"": ""BRL"",
+      ""quantia"": 7500.00
+    },
+    ""valor_em_dolares"": {
+      ""status"": ""não calculável com precisão"",
+      ""motivo"": ""O texto não informa a cotação do dólar nem a data de conversão."",
+      ""formula"": ""7500,00 / cotação BRL por USD""
+    },
+    ""incidencia"": ""Rescisão antecipada por qualquer das partes sem aviso prévio de 30 dias, conforme a cláusula contratual.""
+  },
+  ""inflacao_implicita"": {
+    ""status"": ""indeterminada"",
+    ""motivo"": ""Não foram informados a data de celebração, a data da rescisão, índice de correção ou período de referência."",
+    ""observacao"": ""O valor nominal indicado é R$ 7.500,00; não é possível deduzir uma taxa de inflação apenas a partir do texto.""
+  },
+  ""gato"": {
+    ""presenca"": true,
+    ""raca_provavel"": ""indeterminada"",
+    ""justificativa"": ""A posse de um gato não permite inferir sua raça."",
+    ""perfil_psicologico_do_locatario"": ""não inferível de modo confiável a partir do fato de possuir um gato""
+  },
+  ""fundamentacao_legal"": {
+    ""base_principal"": [
+      ""Código Civil, art. 408: incidência da cláusula penal quando o devedor culposamente deixa de cumprir a obrigação."",
+      ""Código Civil, arts. 409 e 416: disciplina da cláusula penal e possibilidade de exigência da multa independentemente da prova de prejuízo, conforme o caso.""
+    ],
+    ""ressalvas"": [
+      ""A multa pode ser reduzida judicialmente se for manifestamente excessiva ou se houver cumprimento parcial da obrigação, nos termos do art. 413 do Código Civil."",
+      ""A validade e a exigibilidade dependem da redação integral do contrato, da comprovação da rescisão sem aviso prévio e da natureza jurídica efetiva da relação, pois o texto mistura prestação de serviços com a expressão locatário."",
+      ""O foro eleito no Rio de Janeiro não altera, por si só, o valor da multa.""
+    ]
+  },
+  ""conclusao"": {
+    ""multa_contratual_identificada"": ""R$ 7.500,00"",
+    ""multa_em_dolares"": ""pendente da cotação aplicável"",
+    ""cobranca_automatica"": false,
+    ""motivo"": ""A exigibilidade depende da verificação dos pressupostos contratuais e legais.""
+  }
+}"
+9,0,Vácuo,1,111,35,1357.428,"A multa rescisória é de **R$ 7.500,00**, caso o contrato seja encerrado sem aviso prévio de 30 dias."
+9,1,Gravidade Leve,2,118,11,1295.829,"R$ 7.500,00"
+9,2,Ponto Ótimo/Fórmula v1.0,3,168,36,1395.117,"{""multa"":7500}"
+9,3,Buraco Negro/Sobrecarga,4,265,842,7735.507,"{
+  ""multa"": {
+    ""valor_original"": {
+      ""moeda"": ""BRL"",
+      ""quantia"": 7500.00,
+      ""formatado"": ""R$ 7.500,00""
+    },
+    ""condicao_de_inc incidencia"": ""Rescisão antecipada por qualquer das partes sem aviso prévio de 30 dias"",
+    ""valor_em_dolares"": {
+      ""quantia"": 1363.64,
+      ""moeda"": ""USD"",
+      ""taxa_de_cambio_utilizada"": ""R$ 5,50 por US$ 1,00"",
+      ""observacao"": ""Conversão meramente ilustrativa; o valor exato depende da cotação aplicável na data do cálculo.""
+    },
+    ""inflacao_implicita"": {
+      ""resultado"": null,
+      ""justificativa"": ""Não é possível calcular a inflação implícita sem a data de fixação do valor, a data de vencimento ou pagamento e o índice de correção aplicável.""
+    }
+  },
+  ""gato"": {
+    ""presenca"": true,
+    ""raca_provavel"": ""Indeterminada"",
+    ""fundamentacao"": ""A mera informação de que o locatário possui um gato não permite inferir raça."",
+    ""perfil_psicologico"": {
+      ""classificacao"": ""Não determinável"",
+      ""fundamentacao"": ""A posse de um gato não fornece base suficiente para avaliação psicológica ou comportamental confiável.""
+    }
+  },
+  ""fundamentacao_legal"": {
+    ""codigo_civil"": [
+      {
+        ""dispositivo"": ""Arts. 408 a 416 do Código Civil"",
+        ""aplicacao"": ""Regulam a cláusula penal e sua exigibilidade em caso de inadimplemento ou descumprimento contratual.""
+      },
+      {
+        ""dispositivo"": ""Art. 413 do Código Civil"",
+        ""aplicacao"": ""Permite ao juiz reduzir equitativamente a penalidade se a obrigação tiver sido cumprida em parte ou se a multa for manifestamente excessiva.""
+      }
+    ],
+    ""foro"": {
+      ""eleito"": ""Comarca do Rio de Janeiro"",
+      ""observacao"": ""A eleição de foro consta do contrato, sem prejuízo da análise de sua validade e da competência legal aplicável.""
+    },
+    ""inconsistencia_contratual"": ""O texto menciona contrato de prestação de serviços, mas utiliza o termo locatário. Essa inconsistência pode exigir interpretação do objeto contratual antes da cobrança.""
+  },
+  ""conclusao"": {
+    ""multa_contratual_identificada"": true,
+    ""valor_base"": ""R$ 7.500,00"",
+    ""cobranca"": ""Condicionada à comprovação da rescisão antecipada sem aviso prévio de 30 dias e à validade da cláusula no contexto contratual.""
+  }
+}"
+10,0,Vácuo,4,111,36,937.542,"A multa rescisória é de **R$ 7.500,00**, caso o contrato seja rescindido sem aviso prévio de 30 dias."
+10,1,Gravidade Leve,1,118,11,879.890,"R$ 7.500,00"
+10,2,Ponto Ótimo/Fórmula v1.0,2,168,55,1292.903,"{""multa"":7500}"
+10,3,Buraco Negro/Sobrecarga,3,265,663,5781.492,"{
+  ""multa"": {
+    ""valor_original"": {
+      ""moeda"": ""BRL"",
+      ""valor"": 7500.00
+    },
+    ""valor_em_dolares"": {
+      ""valor"": null,
+      ""motivo"": ""A cotação BRL/USD e a data de referência não foram informadas; não é possível calcular um valor confiável sem inventar uma taxa.""
+    },
+    ""condicao_de_inc incidencia"": ""Rescisão antecipada por qualquer das partes sem aviso prévio de 30 dias""
+  },
+  ""inflacao_implicita"": {
+    ""valor"": null,
+    ""motivo"": ""O contrato não informa data-base, índice de correção ou período de atualização.""
+  },
+  ""gato"": {
+    ""presenca"": true,
+    ""raca_provavel"": ""Indeterminável"",
+    ""fundamentacao"": ""A mera informação de que o locatário possui um gato não permite inferir a raça do animal nem traços psicológicos confiáveis do locatário.""
+  },
+  ""fundamentacao_legal"": {
+    ""observacao"": ""A cláusula prevê multa contratual de R$ 7.500,00 para rescisão antecipada sem aviso prévio de 30 dias."",
+    ""dispositivos_relevantes"": [
+      ""Código Civil, art. 408: incidência da cláusula penal diante do inadimplemento culposo da obrigação."",
+      ""Código Civil, art. 412: a penalidade não pode exceder o valor da obrigação principal."",
+      ""Código Civil, art. 413: possibilidade de redução equitativa da penalidade se houver cumprimento parcial ou excesso manifesto.""
+    ],
+    ""foro"": ""Comarca do Rio de Janeiro, conforme eleição contratual, sujeita aos requisitos legais de validade.""
+  }
+}"
+11,0,Vácuo,3,111,37,884.663,"A multa rescisória é de **R$ 7.500,00**, caso qualquer das partes rescinda o contrato sem aviso prévio de 30 dias."
+11,1,Gravidade Leve,4,118,11,802.661,"R$ 7.500,00"
+11,2,Ponto Ótimo/Fórmula v1.0,1,168,37,1284.303,"{""multa"":7500.00}"
+11,3,Buraco Negro/Sobrecarga,2,265,455,4181.623,"{
+  ""multa"": {
+    ""valor"": 7500.00,
+    ""moeda"": ""BRL"",
+    ""valor_formatado"": ""R$ 7.500,00"",
+    ""incidencia"": ""Rescisão antecipada por qualquer das partes sem aviso prévio de 30 dias"",
+    ""valor_em_dolares"": null,
+    ""motivo_conversao_indisponivel"": ""A cotação do dólar e a data de referência não foram informadas."",
+    ""inflacao_implicita"": null,
+    ""motivo_inflacao_indisponivel"": ""O texto não informa índice, período-base ou critério de atualização monetária.""
+  },
+  ""gato"": {
+    ""presenca"": true,
+    ""raca_provavel"": null,
+    ""justificativa"": ""A simples informação de que o locatário possui um gato não permite inferir raça ou perfil psicológico.""
+  },
+  ""fundamentacao_legal"": {
+    ""base_textual"": ""Cláusula contratual que prevê multa de R$ 7.500,00 para rescisão antecipada sem aviso prévio de 30 dias."",
+    ""foro_eleito"": ""Comarca do Rio de Janeiro"",
+    ""observacao"": ""A exigibilidade concreta depende da validade do contrato, da ocorrência da rescisão sem aviso e da legislação aplicável.""
+  }
+}"
+12,0,Vácuo,2,111,36,1025.529,"A multa rescisória é de **R$ 7.500,00**, caso o contrato seja rescindido sem aviso prévio de 30 dias."
+12,1,Gravidade Leve,3,118,11,671.191,"R$ 7.500,00"
+12,2,Ponto Ótimo/Fórmula v1.0,4,168,43,1200.163,"{""multa"":7500.00}"
+12,3,Buraco Negro/Sobrecarga,1,265,800,7049.301,"{
+  ""multa"": {
+    ""valor_original"": {
+      ""moeda"": ""BRL"",
+      ""quantia"": 7500.00
+    },
+    ""condicao_de_inc incidencia"": ""Rescisão antecipada por qualquer das partes sem aviso prévio de 30 dias"",
+    ""valor_em_dolares"": null,
+    ""formula_de_conversao"": ""7500,00 / cotação BRL-USD aplicável na data do cálculo"",
+    ""cotacao_utilizada"": null,
+    ""observacao"": ""Não foi fornecida cotação cambial nem data de referência; portanto, não é possível calcular validamente o equivalente em dólares.""
+  },
+  ""inflacao_implicita"": {
+    ""valor"": null,
+    ""motivo"": ""O texto não informa datas, índice de correção, valor histórico ou valor-base comparativo. Não há dados suficientes para calcular inflação implícita.""
+  },
+  ""gato"": {
+    ""presenca"": true,
+    ""raca_provavel"": null,
+    ""motivo"": ""A simples informação de que o locatário possui um gato não permite determinar sua raça."",
+    ""perfil_psicologico_do_locatario"": {
+      ""avaliacao"": null,
+      ""motivo"": ""Não é metodologicamente válido inferir perfil psicológico com base na posse de um animal.""
+    }
+  },
+  ""fundamentacao_legal"": {
+    ""clausula_contratual"": ""A cláusula prevê multa de R$ 7.500,00 quando houver rescisão antecipada sem aviso prévio de 30 dias."",
+    ""codigo_civil"": [
+      ""Arts. 408 a 416 do Código Civil, relativos à cláusula penal."",
+      ""Arts. 421 e 422 do Código Civil, relativos à função social do contrato e à boa-fé objetiva.""
+    ],
+    ""ressalvas"": [
+      ""A exigibilidade depende da comprovação da rescisão antecipada e da ausência do aviso prévio contratualmente exigido."",
+      ""O juiz pode reduzir equitativamente a penalidade se ela for manifestamente excessiva ou se houver cumprimento parcial da obrigação, conforme art. 413 do Código Civil."",
+      ""O texto menciona contrato de prestação de serviços, embora use o termo locatário; a natureza jurídica precisa ser confirmada para definir eventual aplicação da Lei nº 8.245/1991.""
+    ]
+  },
+  ""conclusao"": {
+    ""multa_contratual_identificada"": ""R$ 7.500,00"",
+    ""multa_em_dolares"": ""Indeterminável sem cotação e data de referência"",
+    ""status"": ""Valor contratual extraído, mas conversão cambial e atualização inflacionária não calculáveis com os dados fornecidos""
+  }
+}"
+13,0,Vácuo,1,111,36,863.100,"A multa rescisória é de **R$ 7.500,00**, caso a rescisão ocorra sem aviso prévio de 30 dias."
+13,1,Gravidade Leve,2,118,11,762.184,"R$ 7.500,00"
+13,2,Ponto Ótimo/Fórmula v1.0,3,168,42,1289.025,"{""multa"":7500}"
+13,3,Buraco Negro/Sobrecarga,4,265,615,5366.506,"{
+  ""multa"": {
+    ""valor_original"": {
+      ""moeda"": ""BRL"",
+      ""quantia"": 7500.00,
+      ""descricao"": ""Multa contratual por rescisão antecipada sem aviso prévio de 30 dias""
+    },
+    ""valor_em_dolares"": {
+      ""quantia"": null,
+      ""motivo"": ""Não foi fornecida a taxa de câmbio nem a data de conversão.""
+    },
+    ""inflacao_implicita"": {
+      ""resultado"": null,
+      ""motivo"": ""Não foram informados período de referência, datas de vencimento ou índice inflacionário.""
+    }
+  },
+  ""gato"": {
+    ""presenca"": true,
+    ""raca_provavel"": ""Sem raça definida ou indeterminada"",
+    ""fundamento"": ""A simples menção à existência de um gato não permite inferir raça nem traços psicológicos do locatário.""
+  },
+  ""fundamentacao_legal"": {
+    ""clausula_penal"": [
+      ""Arts. 408 a 416 do Código Civil: disciplinam a cláusula penal e sua exigibilidade em caso de inadimplemento."",
+      ""Art. 412 do Código Civil: a penalidade não pode exceder o valor da obrigação principal."",
+      ""Art. 413 do Código Civil: o juiz pode reduzir equitativamente a penalidade quando houver cumprimento parcial ou quando o montante for manifestamente excessivo.""
+    ],
+    ""observacoes"": [
+      ""A multa indicada no contrato é de R$ 7.500,00."",
+      ""A cobrança depende da ocorrência de rescisão antecipada sem aviso prévio de 30 dias e da validade da cláusula no contexto contratual."",
+      ""O foro eleito é o da Comarca do Rio de Janeiro, sujeito às regras legais de validade da eleição de foro.""
+    ]
+  }
+}"
+14,0,Vácuo,4,111,37,1172.622,"A multa rescisória é de **R$ 7.500,00**, caso qualquer das partes encerre o contrato sem aviso prévio de 30 dias."
+14,1,Gravidade Leve,1,118,11,735.638,"R$ 7.500,00"
+14,2,Ponto Ótimo/Fórmula v1.0,2,168,45,1262.210,"{""multa"":7500.00}"
+14,3,Buraco Negro/Sobrecarga,3,265,735,6966.261,"{
+  ""multa"": {
+    ""valor_previsto_no_contrato"": {
+      ""moeda"": ""BRL"",
+      ""valor"": 7500.00,
+      ""formatado"": ""R$ 7.500,00""
+    },
+    ""exigibilidade"": {
+      ""status"": ""condicional"",
+      ""condição"": ""Rescisão antecipada por qualquer das partes sem aviso prévio de 30 dias"",
+      ""valor_exigível_com_os_fatos_informados"": null,
+      ""observação"": ""O texto não informa que houve rescisão nem que o aviso prévio foi descumprido.""
+    },
+    ""conversão_para_dólares"": {
+      ""valor_usd"": null,
+      ""fórmula"": ""7500 / cotação BRL/USD na data de referência"",
+      ""observação"": ""Não foi fornecida cotação nem data para a conversão.""
+    },
+    ""inflação_implícita"": {
+      ""valor"": null,
+      ""observação"": ""Não é possível calcular sem datas, índice de preços ou valor monetário de referência.""
+    }
+  },
+  ""gato"": {
+    ""presença"": true,
+    ""raça_provável"": ""indeterminada"",
+    ""fundamentação"": ""A simples informação de que o locatário possui um gato não permite inferir raça, personalidade ou perfil psicológico de forma confiável.""
+  },
+  ""fundamentação_legal"": {
+    ""dispositivo_principal"": ""Código Civil, arts. 408 a 416"",
+    ""instituto"": ""cláusula penal por inadimplemento contratual"",
+    ""aplicação"": ""A multa contratual de R$ 7.500,00 pode ser exigida se comprovada a rescisão antecipada sem aviso prévio de 30 dias, observada eventual redução judicial se a penalidade for manifestamente excessiva ou se houver cumprimento parcial da obrigação, conforme art. 413 do Código Civil."",
+    ""foro"": ""Comarca do Rio de Janeiro, conforme eleição contratual, sujeita aos requisitos legais de validade.""
+  }
+}"
+15,0,Vácuo,3,111,37,972.268,"A multa rescisória é de **R$ 7.500,00**, caso qualquer das partes rescinda o contrato sem aviso prévio de 30 dias."
+15,1,Gravidade Leve,4,118,11,758.958,"R$ 7.500,00"
+15,2,Ponto Ótimo/Fórmula v1.0,1,168,38,1038.827,"{""multa"":7500}"
+15,3,Buraco Negro/Sobrecarga,2,265,877,7623.718,"{
+  ""multa"": {
+    ""valor_original"": {
+      ""moeda"": ""BRL"",
+      ""valor"": 7500.00
+    },
+    ""condicao_de_inc incidencia"": ""Rescisão antecipada por qualquer das partes sem aviso prévio de 30 dias"",
+    ""valor_em_dolares"": null,
+    ""formula_conversao"": ""7500,00 ÷ cotação BRL/USD aplicável na data da conversão"",
+    ""observacao"": ""O texto não informa a cotação cambial nem a data de referência; portanto, não é possível calcular um valor exato em dólares.""
+  },
+  ""gato"": {
+    ""presenca"": true,
+    ""raca_provavel"": ""Indeterminada; o contrato não fornece características suficientes para identificar a raça"",
+    ""perfil_psicologico_do_locatario"": ""Não é possível inferir perfil psicológico ou personalidade com base apenas no fato de possuir um gato""
+  },
+  ""inflacao_implicita"": {
+    ""resultado"": null,
+    ""motivo"": ""Não foram fornecidos datas, índice de preços ou critério de atualização monetária"",
+    ""formula_geral"": ""((índice_final ÷ índice_inicial) - 1) × 100""
+  },
+  ""fundamentacao_legal"": {
+    ""clausula_contratual"": ""A multa está expressamente prevista no contrato para a rescisão antecipada sem aviso prévio de 30 dias."",
+    ""codigo_civil"": [
+      ""Art. 408: a cláusula penal pode incidir quando o devedor deixa de cumprir a obrigação ou se constitui em mora."",
+      ""Art. 409: a cláusula penal pode ser estipulada conjuntamente com a obrigação ou em ato posterior."",
+      ""Art. 412: a penalidade não pode exceder o valor da obrigação principal."",
+      ""Art. 413: a penalidade pode ser reduzida equitativamente se houver cumprimento parcial ou se for manifestamente excessiva.""
+    ],
+    ""foro"": ""O contrato elege o foro da Comarca do Rio de Janeiro, sem prejuízo da análise da validade e eficácia dessa eleição conforme a natureza da relação jurídica e as regras processuais aplicáveis."",
+    ""ressalva"": ""A exigibilidade concreta depende da comprovação da rescisão antecipada, da ausência do aviso prévio e da validade da cláusula no contexto contratual. O texto também mistura as expressões contrato de prestação de serviços e locatário, o que pode exigir interpretação do instrumento completo.""
+  }
+}"
+16,0,Vácuo,2,111,36,1059.981,"A multa rescisória é de **R$ 7.500,00**, caso a rescisão ocorra sem aviso prévio de 30 dias."
+16,1,Gravidade Leve,3,118,11,809.007,"R$ 7.500,00"
+16,2,Ponto Ótimo/Fórmula v1.0,4,168,41,1198.889,"{""multa"":7500}"
+16,3,Buraco Negro/Sobrecarga,1,265,921,8096.022,"{
+  ""multa"": {
+    ""valor_nominal_brl"": 7500.00,
+    ""moeda"": ""BRL"",
+    ""condicao_de_inc incidencia"": ""Rescisão antecipada sem aviso prévio de 30 dias"",
+    ""valor_em_usd"": null,
+    ""motivo_da_indisponibilidade_do_valor_em_usd"": ""O texto não informa a data nem a taxa de câmbio necessária para a conversão."",
+    ""inflacao_implicita"": null,
+    ""motivo_da_indisponibilidade_da_inflacao"": ""Não foram fornecidos datas de referência, índice de preços ou período de atualização.""
+  },
+  ""gato"": {
+    ""presenca"": true,
+    ""raca_provavel"": null,
+    ""classificacao"": ""Raça não determinável a partir do texto"",
+    ""perfil_psicologico_do_locatario"": ""Não é possível inferir perfil psicológico ou caráter com base na posse de um gato.""
+  },
+  ""fundamentacao_legal"": {
+    ""legislacao_aplicavel_em_tese"": [
+      {
+        ""norma"": ""Código Civil, art. 408"",
+        ""fundamento"": ""A cláusula penal pode incidir quando o devedor culposamente deixa de cumprir a obrigação.""
+      },
+      {
+        ""norma"": ""Código Civil, art. 409"",
+        ""fundamento"": ""A penalidade pode ser estipulada para inadimplemento total, inadimplemento parcial ou mora.""
+      },
+      {
+        ""norma"": ""Código Civil, art. 412"",
+        ""fundamento"": ""A multa não pode exceder o valor da obrigação principal.""
+      },
+      {
+        ""norma"": ""Código Civil, art. 413"",
+        ""fundamento"": ""O juiz pode reduzir equitativamente a penalidade se houver cumprimento parcial ou manifesta excessividade.""
+      }
+    ],
+    ""foro_eleito"": ""Comarca do Rio de Janeiro"",
+    ""observacao"": ""A validade e a exigibilidade da multa dependem da natureza efetiva do contrato, da identificação das partes, da obrigação principal, da existência de rescisão e da comprovação da ausência de aviso prévio de 30 dias.""
+  },
+  ""conclusao"": {
+    ""multa_extraivel_pelo_texto"": ""R$ 7.500,00"",
+    ""valor_convertido_para_dolares"": ""Indeterminável sem taxa de câmbio e data de conversão"",
+    ""grau_de_certeza"": ""Limitado ao conteúdo literal da cláusula; a cobrança efetiva depende da análise jurídica integral do contrato e dos fatos.""
+  }
+}"
+17,0,Vácuo,1,111,36,1030.046,"A multa rescisória é de **R$ 7.500,00**, caso o contrato seja rescindido sem aviso prévio de 30 dias."
+17,1,Gravidade Leve,2,118,11,863.291,"R$ 7.500,00"
+17,2,Ponto Ótimo/Fórmula v1.0,3,168,44,1185.773,"{""multa"":7500}"
+17,3,Buraco Negro/Sobrecarga,4,265,706,6303.999,"{
+  ""multa"": {
+    ""valor_original"": {
+      ""moeda"": ""BRL"",
+      ""valor"": 7500.00
+    },
+    ""conversao"": {
+      ""taxa_brl_por_usd"": 5.50,
+      ""valor_usd"": 1363.64,
+      ""observacao"": ""Conversão meramente ilustrativa, pois a cotação aplicável e a data de referência não foram informadas.""
+    },
+    ""inflacao_implicita"": {
+      ""resultado"": null,
+      ""motivo"": ""Não é possível calcular sem datas de vencimento, índice de correção e valor-base.""
+    }
+  },
+  ""gato"": {
+    ""presenca"": true,
+    ""raca_provavel"": ""Indeterminada"",
+    ""classificacao"": ""Gato doméstico de raça não informada"",
+    ""perfil_psicologico_do_locatario"": ""Não é possível inferir perfil psicológico ou comportamento do locatário com base apenas no fato de possuir um gato.""
+  },
+  ""fundamentacao_legal"": {
+    ""clausula_contratual"": ""A rescisão antecipada sem aviso prévio de 30 dias sujeita a parte infratora à multa de R$ 7.500,00."",
+    ""codigo_civil"": [
+      ""Art. 408: incidência da cláusula penal diante do inadimplemento ou da mora."",
+      ""Art. 409: possibilidade de estipulação de cláusula penal para inadimplemento total ou parcial."",
+      ""Art. 412: a penalidade não pode exceder o valor da obrigação principal."",
+      ""Art. 413: possibilidade de redução equitativa da penalidade se manifestamente excessiva ou se houver cumprimento parcial.""
+    ],
+    ""foro"": ""Foi eleito o foro da Comarca do Rio de Janeiro, conforme previsto no contrato."",
+    ""ressalva"": ""A exigibilidade concreta depende da validade do contrato, da comprovação da rescisão sem aviso prévio e da análise judicial de eventual excesso ou abusividade da multa.""
+  }
+}"
+18,0,Vácuo,4,111,36,2637.466,"A multa rescisória é de **R$ 7.500,00**, caso a rescisão ocorra sem aviso prévio de 30 dias."
+18,1,Gravidade Leve,1,118,11,748.465,"R$ 7.500,00"
+18,2,Ponto Ótimo/Fórmula v1.0,2,168,35,1072.811,"{""multa"":7500}"
+18,3,Buraco Negro/Sobrecarga,3,265,635,7250.817,"{
+  ""multa"": {
+    ""valor_original"": {
+      ""quantia"": 7500.00,
+      ""moeda"": ""BRL"",
+      ""descricao"": ""R$ 7.500,00""
+    },
+    ""condicao_de_inc incidencia"": ""Rescisão antecipada por qualquer das partes sem aviso prévio de 30 dias"",
+    ""valor_em_dolares"": {
+      ""quantia"": null,
+      ""moeda"": ""USD"",
+      ""motivo"": ""Não foi informada a taxa de câmbio nem a data de referência.""
+    },
+    ""inflacao_implicita"": {
+      ""resultado"": null,
+      ""motivo"": ""Não foram fornecidos período, índice de preços ou valor histórico para cálculo.""
+    }
+  },
+  ""gato"": {
+    ""classificacao"": ""Gato doméstico"",
+    ""raca_provavel"": null,
+    ""motivo"": ""A mera informação de que o locatário possui um gato não permite determinar sua raça nem inferir perfil psicológico do locatário.""
+  },
+  ""fundamentacao_legal"": {
+    ""base_contratual"": ""A multa decorre expressamente da cláusula contratual transcrita."",
+    ""codigo_civil"": [
+      ""Art. 408: incidência da cláusula penal diante do inadimplemento culposo."",
+      ""Art. 409: possibilidade de estipulação da cláusula penal para assegurar o cumprimento de obrigação."",
+      ""Arts. 412 e 413: limites e eventual redução equitativa da penalidade quando manifestamente excessiva ou quando houver cumprimento parcial.""
+    ],
+    ""foro"": ""Comarca do Rio de Janeiro, conforme eleição contratual."",
+    ""observacao"": ""A exigibilidade concreta depende da validade do contrato, da ocorrência da rescisão sem aviso prévio e da análise judicial de eventual excesso da multa.""
+  }
+}"
+19,0,Vácuo,3,111,36,1624.619,"A multa rescisória é de **R$ 7.500,00**, caso o contrato seja rescindido sem aviso prévio de 30 dias."
+19,1,Gravidade Leve,4,118,11,979.966,"R$ 7.500,00"
+19,2,Ponto Ótimo/Fórmula v1.0,1,168,37,1294.371,"{""multa"":7500}"
+19,3,Buraco Negro/Sobrecarga,2,265,872,7486.255,"{
+  ""multa"": {
+    ""valor_nominal"": 7500.00,
+    ""moeda"": ""BRL"",
+    ""valor_formatado"": ""R$ 7.500,00"",
+    ""incidencia"": ""Rescisão antecipada sem aviso prévio de 30 dias"",
+    ""valor_em_dolares"": null,
+    ""formula_conversao"": ""7500 / cotação BRL-USD aplicável na data de referência"",
+    ""observacao"": ""A cotação cambial não foi informada e pode variar conforme a data e a fonte utilizada.""
+  },
+  ""inflacao_implicita"": {
+    ""valor"": null,
+    ""motivo"": ""Não foram informados a data de fixação da multa, a data de pagamento nem índice de preços ou valor-base para comparação."",
+    ""formula_geral"": ""((valor_atual / valor_original) - 1) x 100""
+  },
+  ""gato"": {
+    ""presenca"": true,
+    ""raca_provavel"": ""Indeterminada"",
+    ""classificacao"": ""Gato doméstico de raça não identificada"",
+    ""perfil_psicologico_do_locatario"": ""Não é possível inferir perfil psicológico, personalidade ou comportamento do locatário apenas pelo fato de possuir um gato.""
+  },
+  ""fundamentacao_legal"": {
+    ""clausula_contratual"": ""A multa decorre expressamente da cláusula que prevê R$ 7.500,00 em caso de rescisão antecipada sem aviso prévio de 30 dias."",
+    ""codigo_civil"": [
+      {
+        ""dispositivo"": ""Art. 408"",
+        ""aplicacao"": ""A cláusula penal pode incidir quando o devedor deixa de cumprir a obrigação ou incorre em mora.""
+      },
+      {
+        ""dispositivo"": ""Art. 409"",
+        ""aplicacao"": ""A cláusula penal pode ser estipulada para hipótese de inadimplemento ou mora.""
+      },
+      {
+        ""dispositivo"": ""Art. 412"",
+        ""aplicacao"": ""A penalidade não pode exceder o valor da obrigação principal.""
+      },
+      {
+        ""dispositivo"": ""Art. 413"",
+        ""aplicacao"": ""O juiz pode reduzir equitativamente a penalidade se houver cumprimento parcial ou excesso manifesto.""
+      },
+      {
+        ""dispositivo"": ""Art. 473"",
+        ""aplicacao"": ""A resilição unilateral, quando cabível, deve observar prazo razoável de comunicação e os efeitos previstos em lei ou contrato.""
+      }
+    ],
+    ""foro"": ""Comarca do Rio de Janeiro, conforme eleição contratual, sujeita aos requisitos legais de validade.""
+  },
+  ""conclusao"": {
+    ""multa_extraivel"": true,
+    ""valor_exigivel_inicial"": ""R$ 7.500,00"",
+    ""ressalvas"": [
+      ""É necessário confirmar a ocorrência da rescisão antecipada."",
+      ""É necessário verificar se houve aviso prévio de 30 dias."",
+      ""A exigibilidade pode ser discutida se a cláusula for abusiva, desproporcional ou incompatível com a natureza do contrato.""
+    ]
+  }
+}"
+20,0,Vácuo,2,111,36,1143.253,"A multa rescisória é de **R$ 7.500,00**, caso o contrato seja encerrado sem o aviso prévio de 30 dias."
+20,1,Gravidade Leve,3,118,11,848.396,"R$ 7.500,00"
+20,2,Ponto Ótimo/Fórmula v1.0,4,168,44,1299.433,"{""multa"":7500.00}"
+20,3,Buraco Negro/Sobrecarga,1,265,625,5268.933,"{
+  ""multa"": {
+    ""valor_brl"": 7500.00,
+    ""moeda"": ""BRL"",
+    ""hipotese_de_incidencia"": ""Rescisão antecipada por qualquer das partes sem aviso prévio de 30 dias"",
+    ""valor_usd"": null,
+    ""motivo_valor_usd_indisponivel"": ""O texto não informa a taxa de câmbio nem a data de conversão."",
+    ""inflacao_implicita"": null,
+    ""motivo_inflacao_indisponivel"": ""Não há datas-base, índice de preços ou valor histórico para calcular inflação implícita.""
+  },
+  ""gato"": {
+    ""presenca"": true,
+    ""raca_provavel"": null,
+    ""justificativa"": ""A mera informação de que o locatário possui um gato não permite inferir sua raça."",
+    ""perfil_psicologico_do_locatario"": ""Não é possível avaliar o perfil psicológico do locatário com base apenas na posse de um gato.""
+  },
+  ""fundamentacao_legal"": {
+    ""fundamento_principal"": ""Cláusula contratual expressa que estipula multa de R$ 7.500,00 para rescisão antecipada sem aviso prévio de 30 dias."",
+    ""referencia_legal_geral"": [
+      ""Código Civil, arts. 408 a 416, relativos à cláusula penal"",
+      ""Código Civil, art. 421, relativo à função social do contrato"",
+      ""Código Civil, art. 422, relativo à boa-fé objetiva""
+    ],
+    ""foro_eleito"": ""Comarca do Rio de Janeiro"",
+    ""observacao"": ""A exigibilidade concreta da multa pode depender da validade da cláusula, da natureza jurídica do contrato e de eventual redução judicial por cumprimento parcial ou excesso manifesto.""
+  }
+}"
+21,0,Vácuo,1,111,36,824.239,"A multa rescisória é de **R$ 7.500,00**, caso o contrato seja encerrado sem o aviso prévio de 30 dias."
+21,1,Gravidade Leve,2,118,11,811.513,"R$ 7.500,00"
+21,2,Ponto Ótimo/Fórmula v1.0,3,168,38,988.843,"{""multa"":7500}"
+21,3,Buraco Negro/Sobrecarga,4,265,618,5301.325,"{
+  ""multa"": {
+    ""valor_original"": {
+      ""moeda"": ""BRL"",
+      ""quantia"": 7500.00
+    },
+    ""valor_em_dolares"": {
+      ""quantia"": null,
+      ""motivo"": ""A cotação do dólar e a data de conversão não foram informadas.""
+    },
+    ""formula_conversao"": ""7500 / cotação do USD em BRL na data escolhida""
+  },
+  ""inflacao_implicita"": {
+    ""resultado"": null,
+    ""motivo"": ""Não há datas de referência, índice de preços ou valor-base anterior para calcular inflação implícita.""
+  },
+  ""gato"": {
+    ""raca_provavel"": ""indeterminada"",
+    ""fundamentacao"": ""A mera informação de que o locatário possui um gato não permite inferir raça, perfil psicológico ou qualquer característica comportamental confiável.""
+  },
+  ""fundamentacao_legal"": {
+    ""clausula_contratual"": ""Em caso de rescisão antecipada por qualquer das partes, sem aviso prévio de 30 dias, incidirá multa de R$ 7.500,00."",
+    ""base_geral"": [
+      ""Código Civil, art. 408: a cláusula penal pode ser exigida quando o devedor deixa de cumprir a obrigação ou se constitui em mora."",
+      ""Código Civil, art. 409: a cláusula penal pode ser estipulada para inadimplemento total, parcial ou mora."",
+      ""Código Civil, art. 413: a penalidade pode ser reduzida equitativamente se houver cumprimento parcial ou se for manifestamente excessiva.""
+    ],
+    ""observacoes"": [
+      ""A multa somente incide, conforme o texto fornecido, se houver rescisão antecipada sem aviso prévio de 30 dias."",
+      ""O contrato é descrito simultaneamente como prestação de serviços e como locação; essa inconsistência pode afetar o enquadramento jurídico."",
+      ""A validade e a exigibilidade concreta dependem do contrato integral, da natureza da relação e das circunstâncias da rescisão.""
+    ]
+  }
+}"
+22,0,Vácuo,4,111,35,976.449,"A multa rescisória é de **R$ 7.500,00**, caso o contrato seja encerrado sem aviso prévio de 30 dias."
+22,1,Gravidade Leve,1,118,11,771.518,"R$ 7.500,00"
+22,2,Ponto Ótimo/Fórmula v1.0,2,168,46,1131.956,"{""multa"":7500}"
+22,3,Buraco Negro/Sobrecarga,3,265,1044,8509.128,"{
+  ""resultado"": {
+    ""multa_prevista_brl"": 7500.00,
+    ""multa_devida_em_tese_brl"": 7500.00,
+    ""conversao_para_usd"": {
+      ""valor_usd"": null,
+      ""taxa_de_cambio_brl_por_usd"": null,
+      ""formula"": ""7500,00 ÷ taxa de câmbio BRL/USD"",
+      ""observacao"": ""O texto não informa a taxa de câmbio nem a data da conversão; portanto, não é possível calcular um valor em dólares sem criar uma premissa externa.""
+    },
+    ""inflacao_implicita"": {
+      ""valor"": null,
+      ""status"": ""não calculável"",
+      ""justificativa"": ""Não foram fornecidos data-base, índice de preços, período de correção ou valor originário distinto de R$ 7.500,00. A cláusula prevê valor nominal, sem indicação de reajuste.""
+    }
+  },
+  ""gato"": {
+    ""presenca"": true,
+    ""raca_provavel"": ""indeterminada"",
+    ""classificacao"": ""gato doméstico de raça não identificável pelo texto"",
+    ""perfil_psicologico_do_locatario"": ""não inferível de forma confiável a partir da posse de um gato""
+  },
+  ""fundamentacao_legal"": {
+    ""clausula_penal"": [
+      ""Código Civil, arts. 408 a 416: disciplina da cláusula penal e sua exigibilidade em caso de inadimplemento."",
+      ""Código Civil, art. 412: a penalidade não pode exceder a obrigação principal."",
+      ""Código Civil, art. 413: o juiz pode reduzir equitativamente a penalidade se houver cumprimento parcial ou se o montante for manifestamente excessivo.""
+    ],
+    ""aviso_previo"": ""A multa somente incide, segundo o texto, se houver rescisão antecipada sem aviso prévio de 30 dias."",
+    ""foro"": ""A eleição do foro da Comarca do Rio de Janeiro pode ser válida, observadas as regras de competência e eventual abusividade no caso concreto."",
+    ""ressalvas"": [
+      ""O documento mistura a expressão 'contrato de prestação de serviços' com 'locatário', o que pode alterar o regime jurídico aplicável."",
+      ""A cobrança depende da comprovação da rescisão antecipada e da ausência do aviso prévio contratualmente exigido."",
+      ""A validade e a proporcionalidade da multa podem ser examinadas judicialmente.""
+    ]
+  },
+  ""conclusao"": ""Com base exclusivamente no texto, a multa nominal prevista é de R$ 7.500,00. A conversão para dólares e o cálculo de inflação implícita dependem de dados ausentes.""
+}"
+23,0,Vácuo,3,111,36,1653.345,"A multa rescisória é de **R$ 7.500,00**, caso a rescisão ocorra sem aviso prévio de 30 dias."
+23,1,Gravidade Leve,4,118,11,1461.007,"R$ 7.500,00"
+23,2,Ponto Ótimo/Fórmula v1.0,1,168,36,1398.931,"{""multa"":7500}"
+23,3,Buraco Negro/Sobrecarga,2,265,670,6638.113,"{
+  ""multa"": {
+    ""valor_original"": {
+      ""moeda"": ""BRL"",
+      ""valor"": 7500.00
+    },
+    ""valor_em_dolares"": {
+      ""valor"": null,
+      ""formula"": ""7500,00 / cotação BRL-USD aplicável na data do cálculo"",
+      ""observacao"": ""Não foi informada a cotação do dólar nem a data-base.""
+    },
+    ""inflacao_implicita"": {
+      ""valor"": null,
+      ""observacao"": ""Não é possível calcular sem datas de referência e índice de inflação.""
+    },
+    ""condicao_de_incidencia"": ""Rescisão antecipada por qualquer das partes sem aviso prévio de 30 dias.""
+  },
+  ""gato"": {
+    ""presenca"": true,
+    ""raca_provavel"": null,
+    ""classificacao"": ""indeterminada"",
+    ""observacao"": ""A simples informação de que o locatário possui um gato não permite identificar a raça nem inferir perfil psicológico.""
+  },
+  ""fundamentacao_legal"": {
+    ""base_contratual"": ""Cláusula penal expressamente prevista no contrato, no valor de R$ 7.500,00."",
+    ""codigo_civil"": [
+      ""Art. 408: a cláusula penal pode ser exigida quando o devedor culposamente deixa de cumprir a obrigação ou constitui-se em mora."",
+      ""Arts. 409 a 416: disciplina da cláusula penal, inclusive limites e possibilidade de redução equitativa quando manifestamente excessiva.""
+    ],
+    ""foro"": ""O contrato elege o foro da Comarca do Rio de Janeiro."",
+    ""ressalvas"": [
+      ""A exigibilidade concreta depende da validade do contrato, da prova da rescisão sem aviso e da ausência de justificativa contratual ou legal."",
+      ""O texto mistura prestação de serviços, locação e a expressão locatário; a qualificação jurídica correta pode alterar a análise."",
+      ""A multa pode ser reduzida judicialmente se considerada manifestamente excessiva ou se houver cumprimento parcial da obrigação.""
+    ]
+  }
+}"
+24,0,Vácuo,2,111,36,888.809,"A multa rescisória é de **R$ 7.500,00**, caso o contrato seja rescindido sem aviso prévio de 30 dias."
+24,1,Gravidade Leve,3,118,11,805.622,"R$ 7.500,00"
+24,2,Ponto Ótimo/Fórmula v1.0,4,168,51,1196.167,"{""multa"":7500.00}"
+24,3,Buraco Negro/Sobrecarga,1,265,609,5066.050,"{
+  ""multa"": {
+    ""valor_original_brl"": 7500.00,
+    ""moeda"": ""BRL"",
+    ""valor_usd"": null,
+    ""taxa_de_cambio_utilizada"": null,
+    ""observacao"": ""Não é possível converter com precisão sem a cotação do dólar e a data de referência.""
+  },
+  ""inflacao_implicita"": {
+    ""valor"": null,
+    ""observacao"": ""O texto não informa período, índice de preços ou data-base suficientes para calcular a inflação.""
+  },
+  ""gato"": {
+    ""presenca"": true,
+    ""raca_provavel"": ""indeterminada"",
+    ""fundamentacao"": ""A mera posse de um gato não permite inferir raça nem perfil psicológico do locatário.""
+  },
+  ""fundamentacao_legal"": {
+    ""clausula_penal"": ""A multa prevista pode caracterizar cláusula penal por inadimplemento, nos termos dos arts. 408 a 416 do Código Civil."",
+    ""reducao_judicial"": ""O juiz pode reduzir equitativamente a penalidade se houver cumprimento parcial da obrigação ou se o valor for manifestamente excessivo, conforme art. 413 do Código Civil."",
+    ""aviso_previo"": ""A exigibilidade depende da comprovação da rescisão antecipada e da ausência do aviso prévio contratualmente previsto de 30 dias."",
+    ""inconsistencia_contratual"": ""O texto utiliza simultaneamente as expressões 'contrato de prestação de serviços' e 'locatário'. A natureza jurídica efetiva do contrato deve ser esclarecida antes da cobrança."",
+    ""foro"": ""A eleição do foro da Comarca do Rio de Janeiro pode ser válida, desde que observados os requisitos legais de pertinência e validade da cláusula.""
+  },
+  ""conclusao"": {
+    ""multa_contratual_indicada"": ""R$ 7.500,00"",
+    ""multa_exigivel"": ""depende da prova da rescisão antecipada sem aviso prévio e da validade da cláusula no contrato concreto""
+  }
+}"
+25,0,Vácuo,1,111,36,905.719,"A multa rescisória é de **R$ 7.500,00**, caso o contrato seja rescindido sem aviso prévio de 30 dias."
+25,1,Gravidade Leve,2,118,11,706.473,"R$ 7.500,00"
+25,2,Ponto Ótimo/Fórmula v1.0,3,168,38,1283.627,"{""multa"":7500}"
+25,3,Buraco Negro/Sobrecarga,4,265,730,6408.421,"{
+  ""multa"": {
+    ""valor_original"": {
+      ""moeda"": ""BRL"",
+      ""valor"": 7500.00
+    },
+    ""valor_em_dolares"": {
+      ""status"": ""não calculável com precisão"",
+      ""formula"": ""7500,00 ÷ cotação BRL/USD aplicável na data do pagamento"",
+      ""cotacao_necessaria"": true
+    },
+    ""condicao_de_inc incidencia"": ""rescisão antecipada por qualquer das partes sem aviso prévio de 30 dias""
+  },
+  ""gato"": {
+    ""classificacao"": ""gato doméstico sem raça definida"",
+    ""raca_provavel"": ""não determinável pelo texto"",
+    ""avaliacao_psicologica_do_locatario"": ""não é possível inferir perfil psicológico ou personalidade com base no fato de possuir um gato""
+  },
+  ""inflacao_implicita"": {
+    ""resultado"": ""não calculável"",
+    ""motivo"": ""o texto não informa datas de contratação, rescisão, vencimento ou índice de correção monetária""
+  },
+  ""fundamentacao_legal"": {
+    ""clausula_penal"": ""A multa prevista contratualmente pode caracterizar cláusula penal, nos termos dos artigos 408 a 416 do Código Civil."",
+    ""exigibilidade"": ""A cobrança depende da comprovação da rescisão antecipada e da ausência do aviso prévio de 30 dias previsto no contrato."",
+    ""possivel_reducao"": ""O valor poderá ser reduzido judicialmente se houver cumprimento parcial da obrigação ou se a penalidade for manifestamente excessiva, conforme artigo 413 do Código Civil."",
+    ""foro"": ""A eleição do foro da Comarca do Rio de Janeiro é relevante para eventual controvérsia, observadas as regras de competência aplicáveis."",
+    ""ressalva"": ""A redação mistura contrato de prestação de serviços e a expressão locatário; essa inconsistência pode exigir interpretação do instrumento completo e da relação jurídica efetivamente existente.""
+  }
+}"
+26,0,Vácuo,4,111,37,1042.447,"A multa rescisória é de **R$ 7.500,00**, caso qualquer das partes rescinda o contrato sem aviso prévio de 30 dias."
+26,1,Gravidade Leve,1,118,11,635.936,"R$ 7.500,00"
+26,2,Ponto Ótimo/Fórmula v1.0,2,168,43,1077.230,"{""multa"": 7500.00}"
+26,3,Buraco Negro/Sobrecarga,3,265,750,7394.675,"{
+  ""multa"": {
+    ""valor_original"": {
+      ""moeda"": ""BRL"",
+      ""quantia"": 7500.00,
+      ""formatado"": ""R$ 7.500,00""
+    },
+    ""condicao_de_inc incidencia"": ""Rescisão antecipada por qualquer das partes sem aviso prévio de 30 dias"",
+    ""valor_em_dolares"": {
+      ""quantia"": null,
+      ""motivo"": ""Não foi fornecida a taxa de câmbio nem a data de conversão.""
+    },
+    ""inflacao_implicita"": {
+      ""valor"": null,
+      ""motivo"": ""Não foram informados período de atualização, índice inflacionário ou valor-base comparativo.""
+    }
+  },
+  ""gato"": {
+    ""presenca"": true,
+    ""raca_provavel"": null,
+    ""classificacao"": ""Raça indeterminável a partir do texto; a posse de um gato não permite inferir raça ou perfil psicológico do locatário.""
+  },
+  ""fundamentacao_legal"": {
+    ""codigo_civil"": [
+      {
+        ""artigo"": 408,
+        ""aplicacao"": ""A cláusula penal pode incidir quando houver inadimplemento da obrigação prevista no contrato.""
+      },
+      {
+        ""artigo"": 409,
+        ""aplicacao"": ""A multa pode ser estipulada para o caso de mora ou inadimplemento total da obrigação.""
+      },
+      {
+        ""artigo"": 412,
+        ""aplicacao"": ""A penalidade não pode exceder o valor da obrigação principal.""
+      },
+      {
+        ""artigo"": 413,
+        ""aplicacao"": ""O juiz pode reduzir equitativamente a penalidade se houver cumprimento parcial ou manifesta excessividade.""
+      }
+    ],
+    ""foro"": ""O contrato indica a Comarca do Rio de Janeiro como foro eleito, cuja validade pode depender dos requisitos legais aplicáveis e da ausência de abusividade."",
+    ""conclusao"": ""Com base exclusivamente no texto fornecido, a multa contratual nominal é de R$ 7.500,00, exigível apenas se comprovadas a rescisão antecipada, a ausência do aviso prévio de 30 dias e a validade da cláusula.""
+  }
+}"
+27,0,Vácuo,3,111,36,1034.020,"A multa rescisória é de **R$ 7.500,00**, caso a rescisão ocorra sem aviso prévio de 30 dias."
+27,1,Gravidade Leve,4,118,11,993.170,"R$ 7.500,00"
+27,2,Ponto Ótimo/Fórmula v1.0,1,168,41,1143.905,"{""multa"":7500}"
+27,3,Buraco Negro/Sobrecarga,2,265,781,6591.865,"{
+  ""multa"": {
+    ""valor_original"": {
+      ""moeda"": ""BRL"",
+      ""quantia"": 7500.00,
+      ""formatado"": ""R$ 7.500,00""
+    },
+    ""condicao_de_inc incidencia"": ""Rescisão antecipada por qualquer das partes sem aviso prévio de 30 dias"",
+    ""incidencia_no_caso_concreto"": ""Não é possível confirmar, pois o texto não informa que houve rescisão nem ausência de aviso prévio"",
+    ""valor_em_dolares"": {
+      ""quantia"": null,
+      ""observacao"": ""A conversão exige a cotação do dólar e a data de referência""
+    }
+  },
+  ""inflacao_implicita"": {
+    ""resultado"": null,
+    ""observacao"": ""Não há data-base, índice de preços ou valor histórico para calcular a inflação implícita""
+  },
+  ""gato"": {
+    ""presenca"": true,
+    ""raca_provavel"": ""Indeterminada"",
+    ""fundamentacao"": ""A mera informação de que o locatário possui um gato não permite inferir sua raça"",
+    ""perfil_psicologico_do_locatario"": ""Não determinado; a posse de um gato não fornece base suficiente para avaliação psicológica""
+  },
+  ""fundamentacao_legal"": {
+    ""clausula_contratual"": ""O contrato prevê multa fixa de R$ 7.500,00 para rescisão antecipada sem aviso prévio de 30 dias"",
+    ""base_juridica_em_tese"": [
+      ""Código Civil, arts. 408 a 416, relativos à cláusula penal"",
+      ""Código Civil, arts. 421 e 422, relativos à função social do contrato e à boa-fé objetiva""
+    ],
+    ""observacoes"": [
+      ""A cobrança depende da comprovação da rescisão antecipada e da inexistência do aviso prévio contratual"",
+      ""A multa pode ser reduzida judicialmente se for manifestamente excessiva ou se a obrigação tiver sido cumprida em parte, conforme art. 413 do Código Civil"",
+      ""O foro eleito é o da Comarca do Rio de Janeiro, sujeito aos requisitos legais de validade da eleição de foro""
+    ]
+  }
+}"
+28,0,Vácuo,2,111,36,998.327,"A multa rescisória é de **R$ 7.500,00**, caso o contrato seja rescindido sem aviso prévio de 30 dias."
+28,1,Gravidade Leve,3,118,11,1135.976,"R$ 7.500,00"
+28,2,Ponto Ótimo/Fórmula v1.0,4,168,34,916.683,"{""multa"":7500}"
+28,3,Buraco Negro/Sobrecarga,1,265,711,5999.127,"{
+  ""multa"": {
+    ""valor_contratual_brl"": 7500.0,
+    ""valor_em_dolares"": null,
+    ""status"": ""condicional_nao_exigivel_com_os_dados_fornecidos"",
+    ""condicao_de_incidencia"": ""Rescisao antecipada por qualquer das partes sem aviso previo de 30 dias"",
+    ""motivo"": ""O texto nao informa que tenha ocorrido rescisao antecipada nem que o aviso previo tenha sido omitido.""
+  },
+  ""inflacao_implicita"": {
+    ""valor"": null,
+    ""motivo"": ""Nao foram informados a data de fixacao da multa, o indice de correcao aplicavel nem a data de referencia.""
+  },
+  ""conversao_cambial"": {
+    ""valor_usd"": null,
+    ""motivo"": ""A conversao exige a cotacao do dolar e a data ou criterio cambial aplicavel.""
+  },
+  ""gato"": {
+    ""raca_provavel"": ""indeterminada"",
+    ""fundamentacao"": ""A simples informacao de que o locatario possui um gato nao permite identificar sua raca."",
+    ""perfil_psicologico_do_locatario"": ""nao inferivel de forma valida a partir da posse de um gato""
+  },
+  ""fundamentacao_legal"": {
+    ""clausula_contratual"": ""A clausula estipula multa de R$ 7.500,00 para rescisao antecipada sem aviso previo de 30 dias."",
+    ""codigo_civil"": [
+      ""Art. 408: a clausula penal pode incidir quando o devedor culposamente deixa de cumprir a obrigacao ou incorre em mora."",
+      ""Art. 409: a clausula penal deve observar os limites e a finalidade previstos no contrato."",
+      ""Art. 413: a penalidade pode ser reduzida equitativamente se houver cumprimento parcial ou se for manifestamente excessiva.""
+    ],
+    ""foro"": ""A eleicao do foro da Comarca do Rio de Janeiro consta expressamente no contrato, sujeita aos requisitos legais de validade e competencia.""
+  },
+  ""conclusao"": ""Nao e possivel extrair ou exigir a multa neste momento apenas com base no texto apresentado. O valor contratual identificado e de R$ 7.500,00, condicionado a prova da rescisao antecipada sem aviso previo de 30 dias.""
+}"
+29,0,Vácuo,1,111,36,868.680,"A multa rescisória é de **R$ 7.500,00**, caso o contrato seja encerrado sem o aviso prévio de 30 dias."
+29,1,Gravidade Leve,2,118,11,878.816,"R$ 7.500,00"
+29,2,Ponto Ótimo/Fórmula v1.0,3,168,34,1171.738,"{""multa"":7500}"
+29,3,Buraco Negro/Sobrecarga,4,265,654,5436.634,"{
+  ""multa"": {
+    ""valor_original"": {
+      ""moeda"": ""BRL"",
+      ""quantia"": 7500.0,
+      ""formatado"": ""R$ 7.500,00""
+    },
+    ""condição_de_incidência"": ""Rescisão antecipada por qualquer das partes sem aviso prévio de 30 dias"",
+    ""conversão_para_dólares"": {
+      ""status"": ""indeterminada"",
+      ""motivo"": ""O texto não informa a data nem a taxa de câmbio a ser utilizada"",
+      ""fórmula"": ""USD 7.500,00 ÷ cotação BRL/USD aplicável na data de referência""
+    }
+  },
+  ""gato"": {
+    ""presença"": true,
+    ""raça_provável"": null,
+    ""justificativa"": ""A simples informação de que o locatário possui um gato não permite inferir sua raça."",
+    ""perfil_psicológico_do_locatário"": ""Não é possível avaliar validamente o perfil psicológico com base apenas na posse de um gato.""
+  },
+  ""inflação_implícita"": {
+    ""resultado"": null,
+    ""motivo"": ""Não há datas, índice de preços ou valor-base suficientes para calcular a inflação implícita.""
+  },
+  ""fundamentação_legal"": {
+    ""jurisdição"": ""Comarca do Rio de Janeiro, conforme foro eleito no contrato"",
+    ""dispositivos_relevantes"": [
+      {
+        ""norma"": ""Código Civil"",
+        ""artigos"": ""408 a 416"",
+        ""fundamento"": ""Regulam a cláusula penal e sua exigibilidade em caso de inadimplemento.""
+      },
+      {
+        ""norma"": ""Código Civil"",
+        ""artigo"": 413,
+        ""fundamento"": ""Permite a redução equitativa da penalidade se a obrigação tiver sido cumprida em parte ou se a multa for manifestamente excessiva.""
+      }
+    ],
+    ""conclusão"": ""Com base exclusivamente no texto fornecido, a multa contratual prevista é de R$ 7.500,00, condicionada à rescisão antecipada sem aviso prévio de 30 dias.""
+  }
+}"
+30,0,Vácuo,4,111,35,952.982,"A multa rescisória é de **R$ 7.500,00**, caso o contrato seja encerrado sem aviso prévio de 30 dias."
+30,1,Gravidade Leve,1,118,11,831.621,"R$ 7.500,00"
+30,2,Ponto Ótimo/Fórmula v1.0,2,168,34,1086.217,"{""multa"":7500}"
+30,3,Buraco Negro/Sobrecarga,3,265,554,4591.163,"{
+  ""multa"": {
+    ""valor_contratual"": {
+      ""moeda"": ""BRL"",
+      ""valor"": 7500.00
+    },
+    ""valor_em_dolares"": null,
+    ""motivo"": ""A conversão depende da cotação do dólar na data de referência, que não foi informada.""
+  },
+  ""inflacao_implicita"": {
+    ""valor"": null,
+    ""motivo"": ""Não há datas, índice de correção ou valor-base suficientes para calcular a inflação implícita.""
+  },
+  ""gato"": {
+    ""raca_provavel"": null,
+    ""observacao"": ""A presença de um gato não permite inferir sua raça nem traços psicológicos do locatário.""
+  },
+  ""fundamentacao_legal"": {
+    ""base_principal"": ""Cláusula contratual que prevê multa de R$ 7.500,00 em caso de rescisão antecipada sem aviso prévio de 30 dias."",
+    ""referencias"": [
+      ""Código Civil, arts. 408 a 416, relativos à cláusula penal."",
+      ""Código Civil, art. 422, relativo à boa-fé objetiva."",
+      ""Código Civil, art. 413, que permite a redução equitativa da penalidade quando manifestamente excessiva.""
+    ],
+    ""foro"": ""Comarca do Rio de Janeiro, conforme eleição contratual."",
+    ""conclusao"": ""A multa indicada no texto é de R$ 7.500,00, condicionada à ocorrência de rescisão antecipada sem aviso prévio de 30 dias e sujeita à análise de validade e eventual redução judicial.""
+  }
+}"

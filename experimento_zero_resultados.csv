@@ -1,0 +1,398 @@
+﻿Iteracao,Tipo_Prompt,Prompt_Tokens,Completion_Tokens,Latency_ms,Resposta_Final
+1,Controle,108,335,5312.225,"A resposta mais provável é a **porta Azul**:
+
+- A porta Vermelha é excluída pela Regra 1.
+- O azul é uma cor primária e geralmente é considerado uma cor fria, não quente.
+- A Regra 2 é irrelevante, pois as placas não importam.
+
+No entanto, há uma ambiguidade: no modelo RGB, o **verde também é uma cor primária** e pode ser considerado não quente. Portanto, para haver uma única resposta, é preciso assumir a classificação tradicional em que o verde não é tratado como cor primária."
+1,Otimizado,156,54,2468.981,Azul
+2,Controle,108,265,3532.684,"A porta segura é a **Azul**.
+
+- A Vermelha é excluída pela Regra 1.
+- Entre as cores tradicionais, o **azul** é uma cor primária e fria, portanto não é quente.
+- A Regra 2 é irrelevante, pois as placas não importam.
+
+*Observação:* se “cores primárias” for interpretado pelo modelo RGB, o verde também é primário; nesse caso, a informação seria ambígua. Pela classificação tradicional de cores, a resposta é **Azul**."
+2,Otimizado,156,59,1709.305,Azul
+3,Controle,108,345,4255.594,"A porta segura é a **Azul**, assumindo o modelo tradicional de cores:
+
+- **Vermelho** é cor primária e quente, além de estar excluído pela Regra 1.
+- **Verde** é uma cor secundária.
+- **Azul** é cor primária e fria, portanto não é quente.
+
+A Regra 2 é irrelevante, pois você informou que as placas não importam.  
+*Observação:* no modelo RGB, o verde também é considerado primário; nesse caso, a regra não determinaria uma única porta."
+3,Otimizado,156,53,1153.341,Azul
+4,Controle,108,272,2923.89,"A porta segura é a **Azul**.
+
+- A Vermelha é descartada pela Regra 1.
+- A Regra 2 é irrelevante, pois as placas não importam.
+- Pela Regra 3, a cor deve ser primária e não quente: **azul** é uma cor primária e fria.
+
+*Isso assume a classificação usual em que vermelho e azul são cores primárias, e vermelho é quente.*"
+4,Otimizado,156,80,1344.962,Azul
+5,Controle,108,368,3884.474,"A porta segura é a **Azul**.
+
+- A Vermelha é excluída pela Regra 1.
+- Entre as cores tradicionais, o **azul** é uma cor primária e fria, ou seja, não quente.
+- A Verde não é considerada cor primária nesse modelo.
+- A Regra 2 é irrelevante, pois as placas não importam."
+5,Otimizado,156,55,1262.785,Azul
+6,Controle,108,320,3752.587,"A porta **Azul** é a resposta mais provável.
+
+- A porta Vermelha é eliminada pela Regra 1.
+- Azul é uma cor primária no modelo tradicional e é considerada fria, não quente.
+- A Regra 2 é irrelevante, pois afirma que as placas não importam.
+
+Observação: se “cor primária” for interpretada pelo modelo RGB, o verde também é primário e frio, tornando o enigma ambíguo. Pela classificação tradicional de cores, porém, a resposta é **Azul**."
+6,Otimizado,156,72,1695.924,Azul
+7,Controle,108,285,3430.228,"A porta **Azul**, assumindo o modelo tradicional de cores em que:
+
+- Vermelho é uma cor primária e quente, mas foi excluído pela Regra 1;
+- Azul é uma cor primária e fria;
+- Verde não é considerado cor primária nesse modelo;
+- A Regra 2 é irrelevante, pois as placas não importam.
+
+**Observação:** se for usado o modelo RGB, o verde também é uma cor primária e geralmente considerada fria; nesse caso, as regras não determinam uma única porta. Portanto, a resposta “Azul” depende da convenção tradicional de cores."
+7,Otimizado,156,58,1344.017,Azul
+8,Controle,108,388,4094.64,"A porta **Azul** é a resposta pretendida:
+
+- A Vermelha está excluída pela Regra 1.
+- Azul é uma cor primária e geralmente classificada como fria, portanto não quente.
+- A Regra 2 é irrelevante, pois as placas não importam.
+
+**Observação:** se “cores primárias” for entendido no modelo RGB, o verde também é primário e pode ser considerado não quente; nesse caso, as regras não determinam uma única porta. Sob a convenção tradicional de cores, a resposta é **Azul**."
+8,Otimizado,156,64,1484.221,Azul
+9,Controle,108,286,3358.613,"A porta segura é a **Azul**.
+
+- A Regra 1 elimina a Vermelha.
+- A Regra 2 é irrelevante, pois as placas não importam.
+- Entre as restantes, o **azul** é uma cor primária e fria, ou seja, não é quente.
+- O verde geralmente não é considerado uma cor primária na classificação tradicional.
+
+Logo, **a saída está atrás da porta Azul**."
+9,Otimizado,156,71,1424.268,Azul
+10,Controle,108,335,3561.335,"A **porta Azul** é a resposta mais provável:
+
+- A saída não pode estar atrás da Vermelha.
+- O Azul é uma cor primária e é considerado uma cor fria, não quente.
+- A Regra 2 é irrelevante, pois afirma que as placas não importam.
+
+No entanto, há uma ambiguidade: no sistema RGB, o **Verde também é uma cor primária e fria**. Portanto, para a resposta ser exclusivamente Azul, deve-se adotar a classificação tradicional de cores em que o verde é secundário."
+10,Otimizado,156,60,1385.131,Azul
+11,Controle,108,371,4124.612,"A resposta mais provável é a **porta Azul**:
+
+- A Vermelha é excluída pela Regra 1.
+- No modelo tradicional de cores, as primárias são vermelho, amarelo e azul.
+- Entre elas, o azul é a cor fria, ou seja, a primária que não é quente.
+- A Regra 2 é irrelevante, pois as placas não importam.
+
+**Observação:** se for usado o modelo RGB, verde e azul são consideradas cores primárias e ambas são geralmente frias. Nesse caso, as regras não determinam uma única porta. Portanto, **Azul** é a resposta apenas assumindo o modelo tradicional de cores."
+11,Otimizado,156,51,1526.144,Azul
+12,Controle,108,271,3944.117,"A porta **Azul** é a resposta mais provável.
+
+- A saída não pode estar atrás da **Vermelha**.
+- A **Azul** é uma cor primária e é considerada fria, portanto não é quente.
+- A regra sobre a porta Azul dizer a verdade é irrelevante, pois as placas não importam.
+
+Assim, pela classificação tradicional de cores, a saída está atrás da **porta Azul**."
+12,Otimizado,156,56,1543.228,Azul
+13,Controle,108,209,2881.218,"A porta segura é a **Azul**.
+
+- A Vermelha é excluída pela Regra 1.
+- A Regra 2 é irrelevante, pois informa que as placas não importam.
+- Pela Regra 3, a cor deve ser **primária** e **não quente**: entre vermelho, azul e verde, o **azul** é a cor primária fria."
+13,Otimizado,156,67,1627.063,Azul
+14,Controle,108,398,3892.41,"A porta segura é a **Azul**.
+
+- A **Vermelha** é descartada pela Regra 1.
+- Entre as cores tradicionais primárias — vermelho, azul e amarelo — a **Azul** é a única considerada fria, portanto não quente.
+- A Regra 2 é irrelevante, pois as placas não importam.
+
+*Observação:* isso assume a classificação tradicional de cores (RYB). Em sistemas como o RGB, o verde também é uma cor primária, o que tornaria a regra ambígua."
+14,Otimizado,156,52,1258.184,Azul
+15,Controle,108,339,4312.206,"A porta **Azul** é a resposta mais provável:
+
+- A Vermelha é excluída pela Regra 1.
+- A Azul é uma cor primária no modelo tradicional (RYB) e é considerada fria.
+- A Verde é geralmente tratada como cor secundária nesse modelo.
+- A Regra 2 é irrelevante, pois as placas não importam.
+
+Portanto, **a saída segura está atrás da porta Azul**.  
+Obs.: no modelo de cores RGB, o verde também é primário e frio, tornando o enunciado ambíguo; a resposta “Azul” depende da convenção tradicional de cores."
+15,Otimizado,156,43,1591.099,Azul
+16,Controle,108,326,3357.786,"A porta **Azul**, assumindo a classificação tradicional de cores:
+
+- Vermelho é uma cor primária e quente, além de ser excluído pela Regra 1.
+- Azul é uma cor primária e fria, portanto satisfaz a Regra 3.
+- Verde é geralmente tratado como cor secundária nesse modelo.
+- A Regra 2 é irrelevante, pois afirma que as placas não importam.
+
+**Resposta: porta Azul.**
+
+Observação: em modelos como o RGB, o verde também é considerado uma cor primária; nesse caso, as regras não determinariam uma única porta."
+16,Otimizado,156,56,1221.054,Azul
+17,Controle,108,458,5168.733,"A porta **Azul** — assumindo a classificação tradicional em que vermelho, amarelo e azul são cores primárias, e o azul é uma cor fria.
+
+- A Vermelha é descartada pela Regra 1.
+- A Regra 2 é irrelevante, pois as placas não importam.
+- Entre as portas restantes, o Azul é a cor primária que não é quente.
+
+**Observação:** se for usado o modelo RGB, o Verde também é considerado cor primária e fria; nesse caso, as regras não determinariam uma única porta."
+17,Otimizado,156,40,994.54,Azul
+18,Controle,108,400,4129.102,"A porta segura é a **Azul**.
+
+- A Vermelha é excluída pela Regra 1.
+- A Regra 2 é irrelevante, pois as placas não importam.
+- Entre as cores primárias tradicionais — vermelho, amarelo e azul — a **azul** é a que não é quente; é considerada uma cor fria.
+
+Logo, a saída está atrás da **porta Azul**."
+18,Otimizado,156,101,1646.918,Azul
+19,Controle,108,146,2388.235,"A porta segura é a **Azul**.
+
+- A Vermelha é descartada pela Regra 1.
+- Entre as cores dadas, **azul** é uma cor primária e considerada fria, portanto não quente.
+- A Regra 2 é irrelevante, pois as placas não importam."
+19,Otimizado,156,76,1431.692,Azul
+20,Controle,108,356,3876.717,"A porta segura é a **Azul**, assumindo a classificação tradicional em que:
+
+- Vermelho é uma cor quente e já foi excluído pela Regra 1;
+- Azul é uma cor primária e fria;
+- Verde não é considerado cor primária no modelo tradicional;
+- A Regra 2 é irrelevante, pois as placas não importam.
+
+Logo, a saída está atrás da **porta Azul**.
+
+*Observação:* em modelos como o RGB, o verde também é uma cor primária, então a Regra 3 poderia gerar ambiguidade dependendo da classificação adotada."
+20,Otimizado,156,73,1507.739,Azul
+21,Controle,108,471,4135.085,"Não é possível determinar uma única porta com essas regras.
+
+- A porta **Vermelha** é excluída pela Regra 1.
+- **Azul** e **Verde** são cores primárias no modelo RGB.
+- Azul é normalmente considerada uma cor fria; verde costuma ser considerada fria ou, no mínimo, não quente.
+- A Regra 2 é irrelevante, pois afirma que as placas não importam.
+
+Assim, a saída pode estar atrás da **Azul ou da Verde**. Só seria possível responder “Azul” se o problema adotasse explicitamente a convenção de que apenas o azul, entre essas opções, é uma cor primária não quente."
+21,Otimizado,156,73,1408.118,Azul
+22,Controle,108,173,2138.189,"A porta segura é a **Azul**.
+
+- A Vermelha é excluída pela Regra 1.
+- Entre as cores dadas, **azul** é uma cor primária e não é quente.
+- A Regra 2 é irrelevante, pois as placas não importam."
+22,Otimizado,156,66,1252.081,Azul
+23,Controle,108,212,3888.192,"A porta segura é a **Azul**.
+
+- A Vermelha é excluída pela Regra 1.
+- A Azul é uma cor primária e considerada fria, portanto satisfaz a Regra 3.
+- A Regra 2 é irrelevante, pois afirma que as placas não importam.
+
+Logo, a saída está atrás da **porta Azul**."
+23,Otimizado,156,79,1494.251,Azul
+24,Controle,108,203,2319.873,"A porta segura é a **Azul**.
+
+- A Vermelha é excluída pela Regra 1.
+- Entre as cores dadas, o **azul** é uma cor primária e fria, portanto não quente.
+- A Regra 2 é irrelevante, pois as placas não importam."
+24,Otimizado,156,52,1119.628,Azul
+25,Controle,108,386,3896.478,"A porta segura é a **Azul**.
+
+- A Vermelha é excluída pela Regra 1.
+- Entre as cores tradicionais primárias — vermelho, amarelo e azul — a primária que não é quente é o **azul**.
+- A Regra 2 é irrelevante, pois as placas não importam.
+
+*Observação:* em alguns sistemas de cores, o verde também é considerado primário; nesse caso, a Regra 3 seria ambígua. Pela convenção tradicional, porém, a resposta é **Azul**."
+25,Otimizado,156,57,1148.239,Azul
+26,Controle,108,207,2650.767,"A porta segura é a **Azul**.
+
+- A Vermelha é excluída pela Regra 1.
+- A Regra 2 é irrelevante, pois as placas não importam.
+- Pela Regra 3, a cor deve ser primária e não quente: **azul** é uma cor primária fria, enquanto vermelho é quente.
+
+Logo, **porta Azul**."
+26,Otimizado,156,44,1535.952,Azul
+27,Controle,108,166,2135.657,"A porta segura é a **Azul**.
+
+- A Vermelha é excluída pela Regra 1.
+- Azul é uma **cor primária** e geralmente considerada **fria**, portanto não é quente.
+- A Regra 2 é irrelevante, pois afirma que as placas não importam."
+27,Otimizado,156,56,1065.481,Azul
+28,Controle,108,298,3122.827,"A porta segura é a **Azul**.
+
+- A Vermelha é excluída pela Regra 1.
+- A Regra 2 é irrelevante, pois as placas não importam.
+- Pela Regra 3, a cor deve ser primária e não quente: **azul** é uma cor primária tradicional e fria.
+
+Logo, a saída segura está atrás da **porta Azul**."
+28,Otimizado,156,60,1265.281,Azul
+29,Controle,108,226,2570.81,"A porta segura é a **Azul**.
+
+- A Vermelha é descartada pela Regra 1.
+- A Regra 2 é irrelevante, pois afirma que as placas não importam.
+- Pela Regra 3, a porta segura deve ter uma cor primária que não seja quente: **azul** é uma cor primária e fria.
+
+Logo, a saída está atrás da **porta Azul**."
+29,Otimizado,156,64,1154.09,Azul
+30,Controle,108,298,3032.648,"Pela interpretação usual de cores primárias **tradicionais** (vermelho, amarelo e azul), a cor primária que não é quente é o **azul**. Como a saída não está atrás da Vermelha, a resposta pretendida é:
+
+**A porta Azul.**
+
+A Regra 2 é irrelevante, pois afirma que as placas não importam.  
+Contudo, se forem usadas as cores primárias da luz (RGB), o verde também é primário e geralmente considerado frio; nesse caso, as regras não determinariam uma única porta."
+30,Otimizado,156,76,1209.359,Azul
+31,Controle,108,343,3663.041,"A porta segura é a **Azul**.
+
+- A Vermelha é excluída pela Regra 1.
+- No modelo tradicional de cores primárias (**vermelho, amarelo e azul**), o azul é uma cor primária fria, isto é, não quente.
+- A Regra 2 é irrelevante, pois as placas não importam.
+
+Isso pressupõe o modelo tradicional de cores; no modelo RGB, o verde também é primário, o que deixaria a informação ambígua."
+31,Otimizado,156,48,1017.783,Azul
+32,Controle,108,345,3543.681,"A resposta pretendida provavelmente é a **porta Azul**:
+
+- A Vermelha é excluída pela Regra 1.
+- O azul é uma cor primária e é considerado uma cor fria, não quente.
+- A Regra 2 é irrelevante, pois as placas não importam.
+
+No entanto, há uma ambiguidade: no modelo RGB, o **verde também é uma cor primária** e costuma ser classificado como frio ou neutro. Portanto, para a resposta ser inequivocamente **Azul**, é preciso adotar a classificação tradicional em que as cores primárias são vermelho, amarelo e azul; nesse modelo, o verde não é primário."
+32,Otimizado,156,107,1483.277,Azul
+33,Controle,108,295,3090.579,"A porta segura é a **Azul**.
+
+- A Vermelha é excluída pela Regra 1.
+- Entre as cores apresentadas, o **azul** é uma cor primária e normalmente considerada fria, portanto não quente.
+- A Regra 2 é irrelevante, pois afirma que as placas não importam.
+
+*Observação:* isso pressupõe a classificação tradicional de cores (vermelho, azul e amarelo como primárias). Em modelos como o RGB, o verde também é primário, o que tornaria a formulação ambígua."
+33,Otimizado,156,80,1247.837,Azul
+34,Controle,108,235,2737.697,"A porta segura é a **Azul**.
+
+- A Vermelha é excluída pela Regra 1.
+- A Regra 2 é irrelevante, pois as placas não importam.
+- Pela Regra 3, a saída está atrás de uma cor primária que não é quente: **azul** (em contraste com vermelho, uma cor quente)."
+34,Otimizado,156,76,1182.392,Azul
+35,Controle,108,425,4205.484,"A resposta **pretendida provavelmente é a porta Azul**:
+
+- A saída não está atrás da Vermelha.
+- Entre as cores primárias tradicionais, **azul** é uma cor fria, portanto “não quente”.
+- A Regra 2 é irrelevante, pois as placas não importam.
+
+No entanto, há uma ambiguidade: no sistema RGB, **verde também é uma cor primária** e geralmente é considerada fria ou neutra. Nesse caso, as regras não determinam uma única porta. Portanto, **Azul é a resposta se for adotada a classificação tradicional em que verde não é primária**."
+35,Otimizado,156,79,1305.878,Azul
+36,Controle,108,213,2315.605,"A porta segura é a **Azul**.
+
+- **Vermelha**: excluída pela Regra 1 e é uma cor quente.
+- **Verde**: geralmente é considerada uma cor secundária, não primária.
+- **Azul**: é uma cor primária e fria, satisfazendo a Regra 3.
+
+A Regra 2 não altera a conclusão, pois as placas não importam."
+36,Otimizado,156,71,1556.329,Azul
+37,Controle,108,265,3014.728,"A porta segura é a **Azul**.
+
+- A Vermelha é excluída pela Regra 1.
+- A Regra 2 é irrelevante, pois as placas não importam.
+- Entre as opções, o **azul** é uma cor primária e considerada fria, isto é, não quente.
+
+Logo, a saída está atrás da **porta Azul**."
+37,Otimizado,156,46,1191.699,Azul
+38,Controle,108,176,2339.757,"A porta segura é a **Azul**.
+
+- A Vermelha é excluída pela Regra 1.
+- Entre as cores mencionadas, **azul** é uma cor primária e geralmente considerada fria, portanto não quente.
+- Verde não é uma cor primária no modelo tradicional de pigmentos.
+- A Regra 2 é irrelevante, pois as placas não importam."
+38,Otimizado,156,55,1538.915,Azul
+39,Controle,108,471,5450.805,"A resposta pretendida provavelmente é a **porta Azul**:
+
+- A Regra 1 elimina a Vermelha.
+- A Regra 2 é irrelevante, pois as placas não importam.
+- Pela classificação tradicional de cores primárias — vermelho, amarelo e azul — a única porta cuja cor é primária e não quente é a **Azul**.
+
+Contudo, há uma ambiguidade: no modelo RGB, **verde e azul** também são cores primárias, e ambas podem ser consideradas não quentes. Nesse caso, as regras não determinam uma única porta. Portanto, **Azul é a resposta apenas assumindo a classificação tradicional de cores**."
+39,Otimizado,156,56,1206.185,Azul
+40,Controle,108,362,3605.759,"A porta segura é a **Azul**.
+
+- A Vermelha é excluída pela Regra 1.
+- A Regra 2 é irrelevante, pois trata das placas.
+- A Azul é uma cor primária e geralmente classificada como fria, enquanto o Vermelho é quente.
+
+**Observação:** em alguns modelos de cores, o Verde também é considerado primário; nesse caso, a Regra 3 poderia deixar a resposta ambígua. Considerando a classificação tradicional, a resposta é **Azul**."
+40,Otimizado,156,53,1366.384,Azul
+41,Controle,108,167,2415.891,"A porta segura é a **Azul**.
+
+- A Vermelha é excluída pela Regra 1.
+- Azul é uma cor primária e considerada fria, portanto não é quente.
+- Verde não é uma cor primária no modelo tradicional de pigmentos.
+- A Regra 2 é irrelevante, pois as placas não importam."
+41,Otimizado,156,57,1602.008,Azul
+42,Controle,108,200,2211.691,"A porta segura é a **Azul**.
+
+- Não pode ser a Vermelha (Regra 1).
+- A cor primária que não é quente é o **azul**, considerado uma cor fria (Regra 3).
+- A Regra 2 é irrelevante, pois as placas não importam."
+42,Otimizado,156,48,1009.341,Azul
+43,Controle,108,307,3419.54,"A porta segura é a **Azul**.
+
+- A Vermelha está excluída pela Regra 1.
+- Considerando as cores primárias tradicionais (vermelho, amarelo e azul), o **azul** é a primária que não é quente.
+- A Regra 2 é irrelevante, pois as placas não importam.
+
+*Observação:* em modelos de cor como o RGB, o verde também é uma cor primária; nesse caso, a regra ficaria ambígua. Pela convenção tradicional, a resposta é **Azul**."
+43,Otimizado,156,60,1125.068,Azul
+44,Controle,108,233,2802.961,"A porta segura é a **Azul**.
+
+- A Vermelha é descartada pela Regra 1.
+- A Regra 2 é irrelevante, pois fala de veracidade das placas, e o enunciado diz para considerar apenas as cores.
+- A Azul é uma cor primária e é considerada fria, portanto satisfaz a Regra 3.
+
+Logo, **a saída está atrás da porta Azul**."
+44,Otimizado,156,98,1871.063,Azul
+45,Controle,108,360,3851.796,"A porta segura é a **Azul**.
+
+- A Vermelha é descartada pela Regra 1.
+- Azul é uma cor primária e fria, portanto não é quente.
+- A Regra 2 é irrelevante, pois as placas não importam.
+
+Isso pressupõe a classificação tradicional em que as cores primárias são vermelho, azul e amarelo. Em modelos como o RGB, o verde também é primário, então a Regra 3 poderia gerar ambiguidade."
+45,Otimizado,156,71,1416.984,Azul
+46,Controle,108,341,3405.319,"A porta **Azul** é a resposta pretendida:
+
+- A Vermelha é eliminada pela Regra 1.
+- O azul é uma cor primária e é classificado como cor fria, não quente.
+- A Regra 2 é irrelevante, pois as placas não importam.
+
+Contudo, há uma ambiguidade: no modelo RGB, **verde e azul** são cores primárias e ambas podem ser consideradas não quentes. Portanto, para haver uma única resposta, é preciso assumir o modelo tradicional em que verde não é uma cor primária."
+46,Otimizado,156,67,1258.109,Azul
+47,Controle,108,397,3932.367,"A porta segura é a **Azul**.
+
+- A regra 1 elimina a Vermelha.
+- A regra 2 é irrelevante, pois as placas não importam.
+- Pela regra 3, a cor deve ser primária e não quente: o **azul** é uma cor primária e fria.
+
+Logo, a saída está atrás da **porta Azul**.  
+(Em alguns modelos de cores, o verde também é considerado primário, mas na interpretação tradicional do enigma ele é tratado como secundário.)"
+47,Otimizado,156,42,912.908,Azul
+48,Controle,108,177,3645.523,"A porta segura é a **Azul**.
+
+- Vermelha é excluída pela Regra 1.
+- Azul é uma cor primária e geralmente considerada fria, não quente.
+- Verde não é uma cor primária no modelo tradicional de pigmentos.
+- A Regra 2 é irrelevante, pois as placas não importam."
+48,Otimizado,156,59,1476.835,Azul
+49,Controle,108,530,5075.193,"Não é possível determinar com certeza sem definir o sistema de cores.
+
+- A Regra 1 elimina a porta Vermelha.
+- A Regra 2 é irrelevante, pois afirma que as placas não importam.
+- Pela Regra 3, a porta segura deve ter uma cor primária que não seja quente.
+
+Se “cores primárias” significar o modelo tradicional de pintura (vermelho, amarelo e azul), a resposta pretendida é **Azul**, pois é uma cor primária fria.
+
+Entretanto, no modelo RGB, **verde e azul** são cores primárias e ambas podem ser consideradas não quentes. Nesse caso, as regras não distinguem entre as duas. Portanto, **Azul é a resposta esperada, mas o enigma é ambíguo sem especificar o modelo de cores**."
+49,Otimizado,156,69,1282.332,Azul
+50,Controle,108,330,3669.794,"A porta segura é a **Azul**.
+
+- A Vermelha é descartada pela Regra 1.
+- Entre as cores dadas, o **azul** é uma cor primária e não é quente.
+- A Regra 2 é irrelevante, pois as placas não importam.
+
+*Observação:* isso assume a classificação tradicional de cores, em que verde é secundária. No modelo RGB, verde também é considerada primária, o que tornaria o enigma ambíguo entre azul e verde."
+50,Otimizado,156,56,1194.954,Azul
