@@ -1,3 +1,5 @@
+UPDATE (August 2026): Added the full formalization paper covering Phase Space Collapse, Structural Friction, and the Entropic Proportionality Law.
+
 # Semantic Thermodynamics: LLM Entropy Minimization
 
 This repository contains the foundational whitepaper, execution scripts, and raw empirical data for the **Semantic Thermodynamics** framework.
